@@ -7,7 +7,11 @@
 
 <p align="center">
   <a href="#about">About</a> •
-  <a href="#Getting Windows">Getting Windows</a>
+  <a href="#getting-windows">Get</a> •
+  <a href="#installing-windows">Install</a> •
+  <a href="#setting-windows">Set</a> •
+  <a href="#support">Support</a> •
+  <a href="#license">License</a>
 </p>
 
  ## About
