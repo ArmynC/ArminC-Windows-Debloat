@@ -81,7 +81,7 @@ First of all, you should get the **.iso** image file of the Microsoft Windows . 
 If the **.iso** image file is **done**, now is time to create a bootable flash drive. In order to do this, you'll need [Rufus utility](https://rufus.ie/en/ "Rufus utility") writer.
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/rufus.png" width="30%" height="30%">
+<img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/rufus.png" width="40%" height="40%">
 <br>
 <sub>Rufus</sub>
 </p>
@@ -94,6 +94,4 @@ Near the end of the installation, if you haven't downloaded a pre-built image wi
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/privacy.png" width="50%" height="50%">
-<br>
-<sub>Rufus</sub>
 </p>
