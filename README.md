@@ -107,9 +107,6 @@ For the peace of mind, is a good habit to **install an Antivirus**, depending on
 
 Now, **check all available updates and drivers**, install them, restart the computer. **Make sure** there is **no** update remaining. It is **not recommended to disable** and avoid them.
 
-
-These days, Windows is so interconnected that it will be difficult or almost impossible to use it in this way without any error, at all
-
 <p align="center">
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/update_check.png" width="50%" height="50%">
 </p>
@@ -120,7 +117,7 @@ Then, if you desire, do the same for **Windows Store**, and only after that, **d
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/store_no_updates.png" width="50%" height="50%">
 </p>
 
-The main (e.g. graphical) drivers **shouldn't be trusted if installed through Windows Updates**, so it's required to uninstall them and reinstall through official ways. To uninstall them, use [Display Driver Uninstaller](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html "Display Driver Uninstaller"), where you should **check all "remove"** specific options and but also very important, **check the Windows Update prevent download option**. Uninstall for every part and restart.
+The main (e.g. graphical) drivers **shouldn't be trusted if installed through Windows Updates**, so it's required to uninstall them and reinstall through official ways. To uninstall them, use [Display Driver Uninstaller](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html "Display Driver Uninstaller"), where you should **check all "remove"** specific options and but also very important, **check the Windows Update prevent download option**. Uninstall for every component, restart and find the latest official installers.
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/ddu.png" width="50%" height="50%">
@@ -130,8 +127,20 @@ Also, don't forget to [activate](https://github.com/massgravel/Microsoft-Activat
 
 ### Debloating Windows
 
-The default Taskbar, Start Menu, Context Menu and File Explorer experience is regrettable. [StartAllBack](https://www.startallback.com/ "StartAllBack") is enhancing all elements in an organic way.
+The default Taskbar, Start Menu, Context Menu and File Explorer experience is regrettable. [StartAllBack](https://www.startallback.com/ "StartAllBack") is **enhancing all elements** in an organic way.
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/startallback.png" width="50%" height="50%">
+</p>
+
+First part of **debloating** is trough [O&O Shutup](https://www.oo-software.com/en/shutup10 "O&O Shutup"). It can tweak most of usual settings. Here is my exported configuration.. I've tried to combine efficiency of use with stability. Disabling every feature can lead to compatibilty errors. 
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/oo_shutup.png" width="50%" height="50%">
+</p>
+
+The second part is trough [SohpiApp](https://github.com/Sophia-Community/SophiApp "SohpiApp"). It has some more in-depth settings. You can **disable some services** that are not needed and even **uninstall UWP apps**. Try to uninstall any app not needed (e.g. help, maps) but **avoid uninstalling complex linked to the operating system** as Edge, Cortana, Xbox if not needed. These days, Windows is so interconnected that it will be difficult or almost impossible to use it in this way without any error, at all.
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/sophiapp.png" width="50%" height="50%">
 </p>
