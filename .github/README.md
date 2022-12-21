@@ -36,7 +36,6 @@ First of all, you should get the **.iso** image file of the Microsoft Windows . 
 <br>
 <sub>rg adguard</sub>
 </p>
-
   1. [Fido PowerShell](https://github.com/pbatard/Fido "Fido PowerShell") download script with automate access to the official Microsoft Windows retail server. There are **no modifications** at all.
 <p align="center">
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/fido.png" width="30%" height="30%">
