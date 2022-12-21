@@ -3,8 +3,29 @@
   <a href="https://github.com/ArmynC/ArminC-Windows-Debloat/archive/refs/heads/main.zip"><img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/arminc_windows_debloat.png" alt="Windows Debloat"></a>
 </h1>
 
-<h4 align="center">Resurse Universitatea Titu Maiorescu - Facultatea de Informatica.</h4>
+<h4 align="center">A high-quality step by step guide for tech savvy users</h4>
 <br>
+ to set up Windows operating system without all bloat and annoying features but at the same time keeping it stable and w.
+
+ ## About
+
+<table>
+<tr>
+<td>
+  
+**ArminC AutoExec** is a **high-quality** _config_ for _Counter-Strike: Global Offensive_ that aims to **improve the gameplay** and its **template is perfect**, enabling you to **customize** the game **settings** to your liking.
+
+It comes **filled** with **optimizations** that make use of the **all network capacity** and **game advantages**, overall **improving the gameplay** for a wide variety of _computers and players_.
+
+**Each and one** of the **commands** are **finely-tuned**, _enabling all game's capacity_ (compared to default settings), **helping you** through the matchmaking.
+
+<p align="right">
+<sub>(^_^)</sub>
+</p>
+
+</td>
+</tr>
+</table>
 
 **Anul 1**
 ---
