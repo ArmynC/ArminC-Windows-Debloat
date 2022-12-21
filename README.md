@@ -75,7 +75,6 @@ First of all, you should get the **.iso** image file of the Microsoft Windows . 
 </ol>
 </ul>
 
-
 ##### Create flash drive
 If the **.iso** image file is **done**, now is time to create a bootable flash drive. In order to do this, you'll need [Rufus utility](https://rufus.ie/en/ "Rufus utility") writer.
 
@@ -97,7 +96,9 @@ Near the end of the installation, if you haven't downloaded a pre-built image wi
 
 ### Setting Windows
 
-If you are done with it, now you should **begin debloating** the operating system.
+#### Prerequisites
+
+If you are done with it, now you should preparing the operating system.
 
 First thing in the list, try to change the browser. **[Firefox](https://www.mozilla.org/en-US/firefox/new/ "Firefox")** is the most optimal variant, even for *extension capabilities*. About that, see my [uBlock Settings](https://github.com/ArmynC/ArminC-uBlock-Settings "uBlock Settings"). Some of other good extensions are [Bitwarden](https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/ "Bitwarden"), [Translate Web Pages](https://addons.mozilla.org/en-US/firefox/addon/traduzir-paginas-web/ "Translate Web Pages"), [Location Guard](https://addons.mozilla.org/en-US/firefox/addon/location-guard/ "Location Guard"), [Return Youtube Dislikes](https://addons.mozilla.org/en-US/firefox/addon/return-youtube-dislikes/ "Return YouTube Dislikes")...
 
@@ -125,7 +126,7 @@ The main (e.g. graphical) drivers **shouldn't be trusted if installed through Wi
 
 Also, don't forget to [activate](https://github.com/massgravel/Microsoft-Activation-Scripts "activate") the Windows. It's annoying.
 
-### Debloating Windows
+#### Debloating
 
 The default Taskbar, Start Menu, Context Menu and File Explorer experience is regrettable. [StartAllBack](https://www.startallback.com/ "StartAllBack") is **enhancing all elements** in an organic way.
 
@@ -133,7 +134,7 @@ The default Taskbar, Start Menu, Context Menu and File Explorer experience is re
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/startallback.png" width="50%" height="50%">
 </p>
 
-First part of **debloating** is trough [O&O Shutup](https://www.oo-software.com/en/shutup10 "O&O Shutup"). It can tweak most of usual settings. Here is my exported configuration.. I've tried to combine efficiency of use with stability. Disabling every feature can lead to compatibilty errors. 
+First part of **debloating** is trough [O&O Shutup](https://www.oo-software.com/en/shutup10 "O&O Shutup"). It can tweak most of usual settings. [Here is my exported configuration](https://github.com/ArmynC/ArminC-Windows-Debloat/blob/main/cfg/ooshutup10.cfg "Here is my exported configuration").. I've tried to combine efficiency of use with stability. Disabling every feature can lead to compatibilty errors. 
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/oo_shutup.png" width="50%" height="50%">
@@ -144,3 +145,40 @@ The second part is trough [SohpiApp](https://github.com/Sophia-Community/SophiAp
 <p align="center">
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/sophiapp.png" width="50%" height="50%">
 </p>
+
+#### Other apps
+
+These apps are optional, or some of them could be already included in the operating system.
+
+##### Runtime
+- [Microsoft Visual C++ Redistributable](https://github.com/abbodi1406/vcredist "Microsoft Visual C++ Redistributable") 
+- [.NET Framework 3.5](https://www.microsoft.com/en-us/download/details.aspx?id=21 ".NET Framework 3.5")
+- [.NET Framework 4.8](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net48 ".NET Framework 4.8")
+- [.NET 7.0](https://dotnet.microsoft.com/en-us/download/dotnet/7.0 ".NET 7.0")
+- [Java](https://www.java.com/download/ie_manual.jsp "Java")
+
+##### Tools
+- [BCUninstaller](https://github.com/Klocman/Bulk-Crap-Uninstaller "BCUninstaller")
+- [IObit Unlocker](https://www.iobit.com/en/iobit-unlocker.php "IObit Unlocker")
+- [qBittorent](https://www.qbittorrent.org/ "qBittorent")
+- [WinCDEmu](https://wincdemu.sysprogs.org/ "WinCDEmu")
+- [Parsec](https://parsec.app/ "Parsec")
+
+##### Media
+- [Spotify-X](https://github.com/SpotX-CLI/SpotX-Win "Spotify-X")
+- [Stremio](https://www.stremio.com/ "Stremio")
+- [Bluetooth Audio Receiver](https://apps.microsoft.com/store/detail/bluetooth-audio-receiver/9N9WCLWDQS5J?hl=en-us&gl=us "Bluetooth Audio Receiver")
+
+##### Development
+- [Visual Studio Code](https://code.visualstudio.com/ "Visual Studio Code")
+- [Visual Studio](https://visualstudio.microsoft.com/ "Visual Studio")
+- [GitHub](https://desktop.github.com/ "GitHub")
+- [Office](https://forums.mydigitallife.net/threads/office-r-tool-the-new-era.84450/ "Office")
+
+##### Communication
+- [Discord](https://discord.com/ "Discord")
+- [Teams](https://www.microsoft.com/en-ww/microsoft-teams/download-app "Teams")
+
+##### Games
+- [Steam](https://store.steampowered.com/about/ "Steam")
+- [Heroic Launcher](https://heroicgameslauncher.com/ "Heroic Launcher")
