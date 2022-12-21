@@ -94,3 +94,15 @@ Near the end of the installation, if you haven't downloaded a pre-built image wi
 <p align="center">
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/privacy.png" width="50%" height="50%">
 </p>
+
+### Setting Windows
+
+If you are done with it, now you should **begin debloating** the operating system.
+
+First thing in the list, try to change the browser. **[Firefox](https://www.mozilla.org/en-US/firefox/new/ "Firefox")** is the most optimal variant, even for *extension capabilities*. About that, see my [uBlock Settings](https://github.com/ArmynC/ArminC-uBlock-Settings "uBlock Settings"). Some of other good extensions are [Bitwarden](https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/ "Bitwarden"), [Translate Web Pages](https://addons.mozilla.org/en-US/firefox/addon/traduzir-paginas-web/ "Translate Web Pages"), [Location Guard](https://addons.mozilla.org/en-US/firefox/addon/location-guard/ "Location Guard"), [Return Youtube Dislikes](https://addons.mozilla.org/en-US/firefox/addon/return-youtube-dislikes/ "Return YouTube Dislikes")...
+
+Next thing, for all the other steps, you'll need a file archiver, [7-Zip](https://www.7-zip.org/ "7-Zip") is a good variant, it's even open-source.
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/privacy.png" width="50%" height="50%">
+</p>
