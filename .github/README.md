@@ -1,10 +1,14 @@
 <h1 align="center">
   <br>
-  <a href="https://github.com/ArmynC/ArminC-Windows-Debloat/archive/refs/heads/main.zip"><img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/arminc_windows_debloat.png" alt="Windows Debloat"></a>
+  <a href="https://github.com/ArmynC/ArminC-Windows-Debloat/archive/refs/heads/main.zip"><img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/arminc_windows_debloat.svg" alt="Windows Debloat"></a>
 </h1>
 
 <h4 align="center">A high-quality step by step guide for tech savvy users</h4>
-<br>
+
+<p align="center">
+  <a href="#about">About</a> •
+  <a href="#Getting Windows">Getting Windows</a>
+</p>
 
  ## About
 
