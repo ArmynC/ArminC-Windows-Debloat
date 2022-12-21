@@ -5,58 +5,34 @@
 
 <h4 align="center">A high-quality step by step guide for tech savvy users</h4>
 <br>
- to set up Windows operating system without all bloat and annoying features but at the same time keeping it stable and w.
 
  ## About
 
 <table>
 <tr>
 <td>
-  
-**ArminC AutoExec** is a **high-quality** _config_ for _Counter-Strike: Global Offensive_ that aims to **improve the gameplay** and its **template is perfect**, enabling you to **customize** the game **settings** to your liking.
 
-It comes **filled** with **optimizations** that make use of the **all network capacity** and **game advantages**, overall **improving the gameplay** for a wide variety of _computers and players_.
+**ArminC Windows Debloat** is an introduction to my personal way of setting up Windows operating system without all the **bloat** and **annoying features** but at the same time keeping it **stable** and **working** in every scenario.
 
-**Each and one** of the **commands** are **finely-tuned**, _enabling all game's capacity_ (compared to default settings), **helping you** through the matchmaking.
-
-<p align="right">
-<sub>(^_^)</sub>
-</p>
+The chosen options should be up to everyone's preference and according to the computer configuration.
 
 </td>
 </tr>
 </table>
 
-**Anul 1**
 ---
 
-#### Semestrul I
+### Getting Windows
 
-* [Arhitectura sistemelor de calcul](https://github.com/ArmynC/ArminC-UTM-Info/tree/main/Anul%201/Semestrul%20I/Arhitectura%20sistemelor%20de%20calcul) - **x86 ASM**
-* [Calcul diferential si integral](https://github.com/ArmynC/ArminC-UTM-Info/tree/main/Anul%201/Semestrul%20I/Calcul%20diferential%20si%20integral) - **mate**
-* [Comunicare de specialitate in limba engleza](https://github.com/ArmynC/ArminC-UTM-Info/tree/main/Anul%201/Semestrul%20I/Comunicare%20de%20specialitate%20in%20limba%20engleza)
-* [Educatie fizica](https://github.com/ArmynC/ArminC-UTM-Info/tree/main/Anul%201/Semestrul%20I/Educatie%20fizica)
-* [Fundamentele programarii](https://github.com/ArmynC/ArminC-UTM-Info/tree/main/Anul%201/Semestrul%20I/Fundamentele%20programarii) - **C**
-* [Logica matematica si computationala](https://github.com/ArmynC/ArminC-UTM-Info/tree/main/Anul%201/Semestrul%20I/Logica%20matematica%20si%20computationala)
-* [Sisteme de operare](https://github.com/ArmynC/ArminC-UTM-Info/tree/main/Anul%201/Semestrul%20I/Sisteme%20de%20operare) - **BASH**
+First of all, you should get the **.iso** image file of the Microsoft Windows . There are more variants to choose from:
+- **Unofficial** pre-built images:
+	1. Assembly based on original Windows Unified Update Platform, with **minimal modifications**, including disabled system requirments check, latest updates integrated, SmartFix, Microsoft DaRT. [Get latest En/Ru version.](https://forum-rg--adguard-net.translate.goog/forums/windows-11.76/?_x_tr_sl=ro&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp "Get latest En/Ru version.")
 
-#### Semestrul 2
+<p align="center">
+<img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/fido.png">
+<br>
+<sub>Fido</sub>
+</p>
 
-* [Algoritmica grafurilor](https://github.com/ArmynC/ArminC-UTM-Info/tree/main/Anul%201/Semestrul%20II/Algoritmica%20grafurilor) - **C/C++**
-* [Calcul numeric](https://github.com/ArmynC/ArminC-UTM-Info/tree/main/Anul%201/Semestrul%20II/Calcul%20numeric) - **MatLab/Octave**
-* [Comunicare de specialitate in limba engleza](https://github.com/ArmynC/ArminC-UTM-Info/tree/main/Anul%201/Semestrul%20II/Comunicare%20de%20specialitate%20in%20limba%20engleza) 
-* [Dezvoltarea aplicatiilor web](https://github.com/ArmynC/ArminC-UTM-Info/tree/main/Anul%201/Semestrul%20II/Dezvoltarea%20aplicatiilor%20web) **HTML**
-* [Educatie fizica](https://github.com/ArmynC/ArminC-UTM-Info/tree/main/Anul%201/Semestrul%20II/Educatie%20fizica)
-* [Fundamentele algebrice ale informaticii](https://github.com/ArmynC/ArminC-UTM-Info/tree/main/Anul%201/Semestrul%20II/Fundamentele%20algebrice%20ale%20informaticii) - **C/mate**
-* [Programare procedurala](https://github.com/ArmynC/ArminC-UTM-Info/tree/main/Anul%201/Semestrul%20II/Programare%20procedurala) - **C**
-* [Redactare si comunicarea stiintifica profesionala](https://github.com/ArmynC/ArminC-UTM-Info/tree/main/Anul%201/Semestrul%20II/Redactare%20si%20comunicarea%20stiintifica%20profesionala)
 
-##### Suplimentar
-[Universitatea Bucuresti](https://github.com/DLarisa/FMI-Materials-BachelorDegree-UniBuc)
-
-[Open Source Society University](https://github.com/ossu/computer-science)
-
-##### Licenta
-[CC0 1.0](https://tldrlegal.com/license/creative-commons-cc0-1.0-universal) - daca nu se specifica altfel.
-
-###### Multumiri aditionale pentru toti cei care au contribuit indirect cu resursele.
+	2. [Fido PowerShell](https://github.com/pbatard/Fido "Fido PowerShell") download script with automate access to the official Microsoft Windows retail server. There are **no modifications** at all.
