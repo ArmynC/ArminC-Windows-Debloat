@@ -163,6 +163,7 @@ These apps are optional, or some of them could be already included in the operat
 - [qBittorent](https://www.qbittorrent.org/ "qBittorent")
 - [WinCDEmu](https://wincdemu.sysprogs.org/ "WinCDEmu")
 - [Parsec](https://parsec.app/ "Parsec")
+- [WingetUI](https://github.com/martinet101/WingetUI "WingetUI")
 
 ##### Media
 - [Spotify-X](https://github.com/SpotX-CLI/SpotX-Win "Spotify-X")
@@ -182,3 +183,11 @@ These apps are optional, or some of them could be already included in the operat
 ##### Games
 - [Steam](https://store.steampowered.com/about/ "Steam")
 - [Heroic Launcher](https://heroicgameslauncher.com/ "Heroic Launcher")
+
+## Support
+
+Reach out to me via the **[profile addresses](https://github.com/ArmynC)**.
+
+## License
+
+[![License: CC0-1.0](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)](https://tldrlegal.com/license/creative-commons-cc0-1.0-universal)
