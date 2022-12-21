@@ -7,7 +7,7 @@
 
 <p align="center">
   <a href="#about">About</a> •
-  <a href="#Getting Windows">Getting Windows</a>
+  <a href="#getting-windows">Getting Windows</a>
 </p>
 
  ## About
@@ -73,3 +73,7 @@ First of all, you should get the **.iso** image file of the Microsoft Windows . 
 
 </ol>
 </ul>
+
+---
+UNDER WORK!!
+---
