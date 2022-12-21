@@ -28,6 +28,7 @@ The chosen options should be up to everyone's preference and according to the co
 
 ### Getting Windows
 <br>
+
 ##### Download
 First of all, you should get the **.iso** image file of the Microsoft Windows . There are more variants to choose from:
 
