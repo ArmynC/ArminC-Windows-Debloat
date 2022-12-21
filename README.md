@@ -139,7 +139,7 @@ First part of **debloating** is trough [O&O Shutup](https://www.oo-software.com/
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/oo_shutup.png" width="50%" height="50%">
 </p>
 
-The second part is trough [SohpiApp](https://github.com/Sophia-Community/SophiApp "SohpiApp"). It has some more in-depth settings. You can **disable some services** that are not needed and even **uninstall UWP apps**. Try to uninstall any app not needed (e.g. help, maps) but **avoid uninstalling complex linked to the operating system** as Edge, Cortana, Xbox if not needed. These days, Windows is so interconnected that it will be difficult or almost impossible to use it in this way without any error, at all.
+The second part is trough [SohpiApp](https://github.com/Sophia-Community/SophiApp "SohpiApp"). It has some more in-depth settings. You can **disable some services** that are not needed and even **uninstall UWP apps**. Try to uninstall any app not needed (e.g. help, maps) but **avoid uninstalling the complex one, linked to the operating system** as Edge, Cortana, Xbox if not needed. These days, Windows is so interconnected that it will be difficult or almost impossible to use it in this way without any error, at all.
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/sophiapp.png" width="50%" height="50%">
