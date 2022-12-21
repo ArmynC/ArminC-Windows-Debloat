@@ -88,3 +88,12 @@ If the **.iso** image file is **done**, now is time to create a bootable flash d
 
 Depending on the chosen settings, the application may ask if you want to **stop the Windows requirement checks**.
 
+### Installing Windows
+
+Near the end of the installation, if you haven't downloaded a pre-built image with sequence skip, you will be asked about **privacy** preferences. Try to **disable/reject** them.
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/privacy.png" width="30%" height="30%">
+<br>
+<sub>Rufus</sub>
+</p>
