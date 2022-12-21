@@ -27,7 +27,6 @@ The chosen options should be up to everyone's preference and according to the co
 ---
 
 ### Getting Windows
-<br>
 
 ##### Download
 First of all, you should get the **.iso** image file of the Microsoft Windows . There are more variants to choose from:
@@ -36,7 +35,7 @@ First of all, you should get the **.iso** image file of the Microsoft Windows . 
 <li><b>Unofficial</b> pre-built images:</li>
 
 <ol type="i">
-<li><a href="https://forum-rg--adguard-net.translate.goog/forums/windows-11.76/?_x_tr_sl=ro&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp">Assembly</a> based on original Windows Unified Update Platform, with <b>minimal modifications</b>, including disabled system requirments check, latest updates integrated, SmartFix, Microsoft DaRT.</li>
+<li><a href="https://forum-rg--adguard-net.translate.goog/forums/windows-11.76/?_x_tr_sl=ro&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp">Assembly</a> based on original Windows Unified Update Platform, with <b>minimal modifications</b>, including disabled system requirments check and account creation, latest updates integrated, SmartFix, Microsoft DaRT. (<b>Recommended</b>)</li>
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/rg_adguard.png" width="30%" height="30%">
