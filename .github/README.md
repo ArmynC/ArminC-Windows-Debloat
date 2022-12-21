@@ -36,7 +36,7 @@ First of all, you should get the **.iso** image file of the Microsoft Windows . 
 <li><b>Unofficial</b> pre-built images:</li>
 
 <ol type="i">
-<li><a href="https://forum-rg--adguard-net.translate.goog/forums/windows-11.76/?_x_tr_sl=ro&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp">Assembly</a> based on original Windows Unified Update Platform, with <b>minimal modifications</b>, including disabled system requirments check, latest updates integrated, SmartFix, Microsoft DaRT.</li>cations**, including disabled system requirments check, latest updates integrated, SmartFix, Microsoft DaRT. </li>
+<li><a href="https://forum-rg--adguard-net.translate.goog/forums/windows-11.76/?_x_tr_sl=ro&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp">Assembly</a> based on original Windows Unified Update Platform, with <b>minimal modifications</b>, including disabled system requirments check, latest updates integrated, SmartFix, Microsoft DaRT.</li>
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/rg_adguard.png" width="30%" height="30%">
