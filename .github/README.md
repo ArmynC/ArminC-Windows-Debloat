@@ -30,13 +30,14 @@ The chosen options should be up to everyone's preference and according to the co
 
 First of all, you should get the **.iso** image file of the Microsoft Windows . There are more variants to choose from:
 - **Unofficial** pre-built images:
-  1. [Assembly](https://forum-rg--adguard-net.translate.goog/forums/windows-11.76/?_x_tr_sl=ro&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp "Assembly") based on original Windows Unified Update Platform, with **minimal modifications**, including disabled system requirments check, latest updates integrated, SmartFix, Microsoft DaRT. 
+    1. [Assembly](https://forum-rg--adguard-net.translate.goog/forums/windows-11.76/?_x_tr_sl=ro&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp "Assembly") based on original Windows Unified Update Platform, with **minimal modifications**, including disabled system requirments check, latest updates integrated, SmartFix, Microsoft DaRT. 
 <p align="center">
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/rg_adguard.png" width="30%" height="30%">
 <br>
 <sub>rg adguard</sub>
 </p>
-  1. [Fido PowerShell](https://github.com/pbatard/Fido "Fido PowerShell") download script with automate access to the official Microsoft Windows retail server. There are **no modifications** at all.
+
+    1. [Fido PowerShell](https://github.com/pbatard/Fido "Fido PowerShell") download script with automate access to the official Microsoft Windows retail server. There are **no modifications** at all.
 <p align="center">
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/fido.png" width="30%" height="30%">
 <br>
