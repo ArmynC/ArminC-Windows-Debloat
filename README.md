@@ -120,8 +120,18 @@ Then, if you desire, do the same for **Windows Store**, and only after that, **d
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/store_no_updates.png" width="50%" height="50%">
 </p>
 
-The main (e.g. graphical) drivers **shouldn't be trusted if installed through Windows Updates**, so it's required to uninstall them and reinstall through official ways. To uninstall them, use Display Driver Uninstaller, where you should check all safe "remove" specific options and but also very important, **check the Windows Update prevent download option**. Uninstall for every part and restart.
+The main (e.g. graphical) drivers **shouldn't be trusted if installed through Windows Updates**, so it's required to uninstall them and reinstall through official ways. To uninstall them, use [Display Driver Uninstaller](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html "Display Driver Uninstaller"), where you should **check all "remove"** specific options and but also very important, **check the Windows Update prevent download option**. Uninstall for every part and restart.
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/ddu.png" width="50%" height="50%">
+</p>
+
+Also, don't forget to [activate](https://github.com/massgravel/Microsoft-Activation-Scripts "activate") the Windows. It's annoying.
+
+### Debloating Windows
+
+The default Taskbar, Start Menu, Context Menu and File Explorer experience is regrettable. [StartAllBack](https://www.startallback.com/ "StartAllBack") is enhancing all elements in an organic way.
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/startallback.png" width="50%" height="50%">
 </p>
