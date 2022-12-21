@@ -68,7 +68,7 @@ First of all, you should get the **.iso** image file of the Microsoft Windows . 
 <li><a href="https://www.microsoft.com/en-us/software-download/windows11">Official Windows Installation Media</a> tool for bootable USB or DVD.</li>
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/windows_installation_media.png" width="30%" height="30%">
+<img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/windows_installation_media.png" width="50%" height="50%">
 <br>
 <sub>Windows Installation Media tool</sub>
 </p>
@@ -93,7 +93,7 @@ Depending on the chosen settings, the application may ask if you want to **stop 
 Near the end of the installation, if you haven't downloaded a pre-built image with sequence skip, you will be asked about **privacy** preferences. Try to **disable/reject** them.
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/privacy.png" width="30%" height="30%">
+<img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/privacy.png" width="50%" height="50%">
 <br>
 <sub>Rufus</sub>
 </p>
