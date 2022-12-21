@@ -101,8 +101,27 @@ If you are done with it, now you should **begin debloating** the operating syste
 
 First thing in the list, try to change the browser. **[Firefox](https://www.mozilla.org/en-US/firefox/new/ "Firefox")** is the most optimal variant, even for *extension capabilities*. About that, see my [uBlock Settings](https://github.com/ArmynC/ArminC-uBlock-Settings "uBlock Settings"). Some of other good extensions are [Bitwarden](https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/ "Bitwarden"), [Translate Web Pages](https://addons.mozilla.org/en-US/firefox/addon/traduzir-paginas-web/ "Translate Web Pages"), [Location Guard](https://addons.mozilla.org/en-US/firefox/addon/location-guard/ "Location Guard"), [Return Youtube Dislikes](https://addons.mozilla.org/en-US/firefox/addon/return-youtube-dislikes/ "Return YouTube Dislikes")...
 
-Next thing, for all the other steps, you'll need a file archiver, [7-Zip](https://www.7-zip.org/ "7-Zip") is a good variant, it's even open-source.
+Next thing, for all the other steps, you'll need a file archiver, [7-Zip](https://www.7-zip.org/ "7-Zip") is a good variant, it's even *open-source*.
+
+For the peace of mind, is a good habit to **install an Antivirus**, depending on your Windows image, the default one, **Defender**, may be removed, disabled or even working. For some it is good enough, but I prefer to get [Kaspersky Security Cloud (Free)](https://www.kaspersky.com/free-antivirus "Kaspersky Security Cloud (Free)"), it has almost every protection module of its premium counterpart and it is smart enough to **disable itself when resources are needed**, for example in gaming.
+
+Now, **check all available updates and drivers**, install them, restart the computer. **Make sure** there is **no** update remaining. It is **not recommended to disable** and avoid them.
+
+
+These days, Windows is so interconnected that it will be difficult or almost impossible to use it in this way without any error, at all
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/privacy.png" width="50%" height="50%">
+<img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/update_check.png" width="50%" height="50%">
+</p>
+
+Then, if you desire, do the same for **Windows Store**, and only after that, **disable its auto updates**.
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/store_no_updates.png" width="50%" height="50%">
+</p>
+
+The main (e.g. graphical) drivers **shouldn't be trusted if installed through Windows Updates**, so it's required to uninstall them and reinstall through official ways. To uninstall them, use Display Driver Uninstaller, where you should check all safe "remove" specific options and but also very important, **check the Windows Update prevent download option**. Uninstall for every part and restart.
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/ddu.png" width="50%" height="50%">
 </p>
