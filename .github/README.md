@@ -3,7 +3,7 @@
   <a href="https://github.com/ArmynC/ArminC-Windows-Debloat/archive/refs/heads/main.zip"><img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/arminc_windows_debloat.svg" alt="Windows Debloat"></a>
 </h1>
 
-<h4 align="center">A high-quality step by step guide for tech savvy users</h4>
+<h4 align="center">A high-quality step by step guide for tech savvy users.</h4>
 
 <p align="center">
   <a href="#about">About</a> •
@@ -37,7 +37,7 @@ First of all, you should get the **.iso** image file of the Microsoft Windows . 
 <sub>rg adguard</sub>
 </p>
 
-	1. [Fido PowerShell](https://github.com/pbatard/Fido "Fido PowerShell") download script with automate access to the official Microsoft Windows retail server. There are **no modifications** at all.
+  2. [Fido PowerShell](https://github.com/pbatard/Fido "Fido PowerShell") download script with automate access to the official Microsoft Windows retail server. There are **no modifications** at all.
 <p align="center">
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/fido.png">
 <br>
