@@ -56,7 +56,7 @@ First of all, you should get the **.iso** image file of the Microsoft Windows . 
 <sub>Fido</sub>
 </p>
 
-   - [Official Windows Installation Media](https://www.microsoft.com/en-us/software-download/windows11 "Official Windows Installation Media") tool for bootable USB or DVD.
+     - [Official Windows Installation Media](https://www.microsoft.com/en-us/software-download/windows11 "Official Windows Installation Media") tool for bootable USB or DVD.
 <p align="center">
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/windows_installation_media.png" width="30%" height="30%">
 <br>
