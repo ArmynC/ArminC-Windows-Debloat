@@ -3,7 +3,7 @@
   <a href="https://github.com/ArmynC/ArminC-Windows-Debloat/archive/refs/heads/main.zip"><img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/arminc_windows_debloat.svg" alt="Windows Debloat"></a>
 </h1>
 
-<h4 align="center">A high-quality step by step guide for tech savvy users.</h4>
+<h4 align="center">A high-quality step-by-step guide for tech-savvy users.</h4>
 
 <p align="center">
   <a href="#about">About</a> •
@@ -20,7 +20,7 @@
 <tr>
 <td>
 
-**ArminC Windows Debloat** is an introduction to my personal way of setting up Windows operating system without all the **bloat** and **annoying features** but at the same time keeping it **stable** and **working** in every scenario.
+**ArminC Windows Debloat** is an introduction to my way of setting up Windows operating system without all the **bloat** and **annoying features** but at the same time keeping it **stable** and **working** in every scenario.
 
 The chosen options should be up to everyone's preference and according to the computer configuration.
 
@@ -33,13 +33,13 @@ The chosen options should be up to everyone's preference and according to the co
 ### Getting Windows
 
 ##### Download
-First of all, you should get the **.iso** image file of the Microsoft Windows . There are more variants to choose from:
+First of all, you should get the **.iso** image file of Microsoft Windows. There are more variants to choose from:
 
 <ul>
 <li><b>Unofficial</b> pre-built images:</li>
 
 <ol type="i">
-<li><a href="https://forum-rg--adguard-net.translate.goog/forums/windows-11.76/?_x_tr_sl=ro&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp">Assembly</a> based on original Windows Unified Update Platform, with <b>minimal modifications</b>, including disabled system requirments check and account creation, latest updates integrated, SmartFix, Microsoft DaRT. (<b>Recommended</b>)</li>
+<li><a href="https://forum-rg--adguard-net.translate.goog/forums/windows-11.76/?_x_tr_sl=ro&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp">Assembly</a> based on original Windows Unified Update Platform, with <b>minimal modifications</b>, including disabled system requirements check and account creation, latest updates integrated, SmartFix, Microsoft DaRT. (<b>Recommended</b>)</li>
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/rg_adguard.png" width="30%" height="30%">
@@ -47,7 +47,7 @@ First of all, you should get the **.iso** image file of the Microsoft Windows . 
 <sub>rg adguard assembly</sub>
 </p>
 
-<li><a href="https://www.teamos.xyz/forums/windows-11-x64.159/">Multiple custom builds</a>, be it touched or untouched, including <b>modifications</b>, as disabled system requirments check or even total reskin.</li>
+<li><a href="https://www.teamos.xyz/forums/windows-11-x64.159/">Multiple customs build</a>, be it touched or untouched, including <b>modifications</b>, as disabled system requirements  check or even total reskin.</li>
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/teamos.png" width="30%" height="30%">
@@ -60,7 +60,7 @@ First of all, you should get the **.iso** image file of the Microsoft Windows . 
 <li><b>Official</b> images:</li>
 
 <ol type="i">
-<li><a href="https://github.com/pbatard/Fido">Fido PowerShell</a> download script with automate access to the official Microsoft Windows retail server. There are <b>no modifications</b> at all.</li>
+<li><a href="https://github.com/pbatard/Fido">Fido PowerShell</a> download script with automated access to the official Microsoft Windows retail server. There are <b>no modifications</b> at all.</li>
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/fido.png" width="30%" height="30%">
