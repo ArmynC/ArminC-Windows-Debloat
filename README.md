@@ -162,7 +162,7 @@ These apps are optional, or some of them may be included in the operating system
 - [Java](https://www.java.com/download/ie_manual.jsp "Java")
 
 ##### Tools
-- [BCUninstaller](https://github.com/Klocman/Bulk-Crap-Uninstaller "BCUninstaller")
+- [Revo Uninstaller](https://www.revouninstaller.com/ "Revo Uninstaller") or [BCUninstaller](https://github.com/Klocman/Bulk-Crap-Uninstaller "BCUninstaller")
 - [IObit Unlocker](https://www.iobit.com/en/iobit-unlocker.php "IObit Unlocker")
 - [qBittorent](https://www.qbittorrent.org/ "qBittorent")
 - [WinCDEmu](https://wincdemu.sysprogs.org/ "WinCDEmu")
@@ -179,6 +179,7 @@ These apps are optional, or some of them may be included in the operating system
 - [Visual Studio](https://visualstudio.microsoft.com/ "Visual Studio")
 - [GitHub](https://desktop.github.com/ "GitHub")
 - [Office](https://forums.mydigitallife.net/threads/office-r-tool-the-new-era.84450/ "Office")
+- [Beyond Compare](https://www.scootersoftware.com/download.php "Beyond Compare")
 
 ##### Communication
 - [Discord](https://discord.com/ "Discord")
