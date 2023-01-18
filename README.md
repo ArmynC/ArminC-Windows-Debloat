@@ -155,7 +155,8 @@ The second part is through [SohpiApp](https://github.com/Sophia-Community/SophiA
 These apps are optional, or some of them may be included in the operating system.
 
 ##### Runtime
-- [Microsoft Visual C++ Redistributable](https://github.com/abbodi1406/vcredist "Microsoft Visual C++ Redistributable") 
+- [Microsoft Visual C++ Redistributable](https://github.com/abbodi1406/vcredist "Microsoft Visual C++ Redistributable")
+- [Microsoft DirectX Legacy](https://www.microsoft.com/en-us/download/details.aspx?id=8109 "Microsoft DirectX Legacy") 
 - [.NET Framework 3.5](https://www.microsoft.com/en-us/download/details.aspx?id=21 ".NET Framework 3.5")
 - [.NET Framework 4.8](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net48 ".NET Framework 4.8")
 - [.NET 7.0](https://dotnet.microsoft.com/en-us/download/dotnet/7.0 ".NET 7.0")
