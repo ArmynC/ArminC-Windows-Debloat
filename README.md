@@ -169,6 +169,7 @@ These apps are optional, or some of them may be included in the operating system
 - [WinCDEmu](https://wincdemu.sysprogs.org/ "WinCDEmu")
 - [Parsec](https://parsec.app/ "Parsec")
 - [WingetUI](https://github.com/martinet101/WingetUI "WingetUI")
+- [Dimmer](https://www.nelsonpires.com/software/dimmer "Dimmer")
 
 ##### Media
 - [Spotify-X](https://github.com/SpotX-CLI/SpotX-Win "Spotify-X")
