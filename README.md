@@ -86,7 +86,7 @@ If the **.iso** image file has been **completed**, now is the time to create a b
 <li><a href="https://www.ventoy.net/en/index.html">Ventoy</a> is an utility which creates a bootable usb, by <i>directly booting</i> the .iso file, without the need for the usb to be formatted.</li>
 
 <p align="center">
-<img src="" width="40%" height="40%">
+<img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/ventoy_bios.png" width="40%" height="40%">
 <br>
 <sub>Ventoy</sub>
 </p>
@@ -101,11 +101,7 @@ If the **.iso** image file has been **completed**, now is the time to create a b
 
 Depending on the chosen settings, the application may ask if you want to **stop the Windows requirement checks**.
 
-
 </ol>
-
-
-
 
 ### Installing Windows
 
