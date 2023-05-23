@@ -185,7 +185,7 @@ These apps are optional, or some of them may be included in the operating system
 - [Dimmer](https://www.nelsonpires.com/software/dimmer "Dimmer")
 
 ##### Media
-- [Spotify-X](https://github.com/SpotX-CLI/SpotX-Win "Spotify-X")
+- [Spotify-X](https://github.com/amd64fox/SpotX "Spotify-X")
 - [Stremio](https://www.stremio.com/ "Stremio")
 - [Bluetooth Audio Receiver](https://apps.microsoft.com/store/detail/bluetooth-audio-receiver/9N9WCLWDQS5J?hl=en-us&gl=us "Bluetooth Audio Receiver")
 
