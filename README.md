@@ -80,7 +80,18 @@ First and foremost, you must obtain the **.iso** image file of Microsoft Windows
 </ul>
 
 ##### Create flash drive
-If the **.iso** image file has been **completed**, now is the time to create a bootable flash drive. In order to do this, you'll need [Rufus utility](https://rufus.ie/en/ "Rufus utility") writer.
+If the **.iso** image file has been **completed**, now is the time to create a bootable flash drive. In order to do this, you'll need an utility. There are several ways:
+
+<ol type="i">
+<li><a href="https://www.ventoy.net/en/index.html">Ventoy</a> is an utility which creates a bootable usb, by <i>directly booting</i> the .iso file, without the need for the usb to be formatted.</li>
+
+<p align="center">
+<img src="" width="40%" height="40%">
+<br>
+<sub>Ventoy</sub>
+</p>
+    
+<li><a href="https://rufus.ie/en/">Rufus</a> is an utility which creates a bootable usb, by <i>burning</i> the .iso file.</li>
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/rufus.png" width="40%" height="40%">
@@ -90,9 +101,15 @@ If the **.iso** image file has been **completed**, now is the time to create a b
 
 Depending on the chosen settings, the application may ask if you want to **stop the Windows requirement checks**.
 
+
+</ol>
+
+
+
+
 ### Installing Windows
 
-Near the end of the installation, if you haven't downloaded a pre-built image with sequence skip, you will be asked about **privacy** preferences. Try to **disable/reject** them.
+Near the end of the installation, if you haven't downloaded a pre-built image with sequence skip, you will be asked about **privacy** preferences. Try to **disable/reject** them. Also, try to <b>avoid</b> connecting the device to Internet during the setup.
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/privacy.png" width="50%" height="50%">
@@ -104,7 +121,7 @@ Near the end of the installation, if you haven't downloaded a pre-built image wi
 
 If you are done with it, now you should prepare the operating system.
 
-The first thing on the list, try to change the browser. **[Firefox](https://www.mozilla.org/en-US/firefox/new/ "Firefox")** is the most optimal variant, even for *extension capabilities*. About that, see my [uBlock Settings](https://github.com/ArmynC/ArminC-uBlock-Settings "uBlock Settings"). Some of the other good extensions are [Bitwarden](https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/ "Bitwarden"), [Translate Web Pages](https://addons.mozilla.org/en-US/firefox/addon/traduzir-paginas-web/ "Translate Web Pages"), [Location Guard](https://addons.mozilla.org/en-US/firefox/addon/location-guard/ "Location Guard"). Some YouTube ones include [Return Youtube Dislikes](https://addons.mozilla.org/en-US/firefox/addon/return-youtube-dislikes/ "Return YouTube Dislikes"), [Thumbnail Rating Bar for YouTube](https://addons.mozilla.org/en-US/firefox/addon/youtube-thumbnail-rating-bar/ "Thumbnail Rating Bar for YouTube"), [YouTube Tooltip & Notification](https://addons.mozilla.org/en-US/firefox/addon/youtube-tooltip-notification/ "YouTube Tooltip & Notification"), [Watchmarker for Youtube](https://addons.mozilla.org/en-US/firefox/addon/watchmarker-for-youtube/ "Watchmarker for Youtube") ...
+The first thing on the list, try to change the browser. **[Firefox](https://www.mozilla.org/en-US/firefox/new/ "Firefox")** is the most optimal variant, even for *extension capabilities*. About that, see my [uBlock Settings](https://github.com/ArmynC/ArminC-uBlock-Settings "uBlock Settings"). Some of the other good extensions are [Bitwarden](https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/ "Bitwarden"), [Translate Web Pages](https://addons.mozilla.org/en-US/firefox/addon/traduzir-paginas-web/ "Translate Web Pages"), [Location Guard](https://addons.mozilla.org/en-US/firefox/addon/location-guard/ "Location Guard"). Some YouTube ones include [Return Youtube Dislikes](https://addons.mozilla.org/en-US/firefox/addon/return-youtube-dislikes/ "Return YouTube Dislikes"), [Thumbnail Rating Bar for YouTube](https://addons.mozilla.org/en-US/firefox/addon/youtube-thumbnail-rating-bar/ "Thumbnail Rating Bar for YouTube"), [YouTooltip](https://addons.mozilla.org/en-US/firefox/addon/youtooltip/ "YouTooltip"), [Watchmarker for Youtube](https://addons.mozilla.org/en-US/firefox/addon/watchmarker-for-youtube/ "Watchmarker for Youtube") ...
 
 Next thing, for all the other steps, you'll need a file archiver, [7-Zip](https://www.7-zip.org/ "7-Zip") is a good variant, it's even *open-source*.
 
