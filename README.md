@@ -174,7 +174,7 @@ There are also some <b>advanced settings</b> which could break or mess with the 
 Furthermore, for <b>AMD-enabled GPUs</b> there is no identical replacement. Their official installer has very few bloated components, making it unecesarry to unbloat it. But still, the closest available alternative in terms of operating mechanism would be [RadeonSoftwareSlimmer](https://github.com/GSDragoon/RadeonSoftwareSlimmer), which is pretty straight forward.
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/radeon_software_slimmer.png" width="40%" height="40%">
+<img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/radeon_software_slimmer.png" width="60%" height="60%">
 </p>
 
 ##### Misc
