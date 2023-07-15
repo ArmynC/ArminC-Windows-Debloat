@@ -117,12 +117,16 @@ Near the end of the installation, if you haven't downloaded a pre-built image wi
 
 If you are done with it, now you should prepare the operating system.
 
+##### The browser
 The first thing on the list, try to change the browser. **[Firefox](https://www.mozilla.org/en-US/firefox/new/ "Firefox")** is the most optimal variant, even for *extension capabilities*. About that, see my [uBlock Settings](https://github.com/ArmynC/ArminC-uBlock-Settings "uBlock Settings"). Some of the other good extensions are [Bitwarden](https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/ "Bitwarden"), [Translate Web Pages](https://addons.mozilla.org/en-US/firefox/addon/traduzir-paginas-web/ "Translate Web Pages"), [Location Guard](https://addons.mozilla.org/en-US/firefox/addon/location-guard/ "Location Guard"), [FastForward](https://github.com/FastForwardTeam/FastForward "FastForward"). Some YouTube ones include [Return Youtube Dislikes](https://addons.mozilla.org/en-US/firefox/addon/return-youtube-dislikes/ "Return YouTube Dislikes"), [Thumbnail Rating Bar for YouTube](https://addons.mozilla.org/en-US/firefox/addon/youtube-thumbnail-rating-bar/ "Thumbnail Rating Bar for YouTube"), [YouTooltip](https://addons.mozilla.org/en-US/firefox/addon/youtooltip/ "YouTooltip"), [Watchmarker for Youtube](https://addons.mozilla.org/en-US/firefox/addon/watchmarker-for-youtube/ "Watchmarker for Youtube") ...
 
+##### Other apps
 Next thing, for all the other steps, you'll need a file archiver, [7-Zip](https://www.7-zip.org/ "7-Zip") is a good variant, it's even *open-source*.
 
-For tpeace of mind, it is a good habit to **install an antivirus**, depending on your Windows image, the default one, **Defender**, may be removed, disabled, or even working. For some, it is good enough, but I prefer to get [Kaspersky Security Cloud (Free)](https://www.kaspersky.com/free-antivirus "Kaspersky Security Cloud (Free)"), it has almost every protection module of its premium counterpart, and it is smart enough to **disable itself when resources are needed**, for example in gaming.
+For the peace of mind, it is a good habit to **install an antivirus**, depending on your Windows image, the default one, **Defender**, may be removed, disabled, or even working. For some, it is good enough, but I prefer to get [Kaspersky Security Cloud (Free)](https://www.kaspersky.com/free-antivirus "Kaspersky Security Cloud (Free)"), or even [BitDefender(Free)](https://www.bitdefender.com/solutions/free.html). Kaspersky has almost every protection module of its premium counterpart, and it is smart enough to **disable itself when resources are needed**, for example in gaming.
 
+
+##### Updates
 Now, **check all available updates and drivers**, install them, and restart the computer. **Make sure** there is **no** update remaining. It is **not advisable to disable** and avoid them.
 
 <p align="center">
@@ -135,13 +139,48 @@ Then, if desired, do the same for **Windows Store**, and only after that, **disa
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/store_no_updates.png" width="50%" height="50%">
 </p>
 
-The main (e.g., graphical) drivers **shouldn't be trusted if installed through Windows Updates**, so it's required to uninstall them and reinstall them through official ways. To uninstall them, use [Display Driver Uninstaller](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html "Display Driver Uninstaller"), where you should **check all "remove"** specific options, and also very important, **check the Windows Update prevent download option**. Uninstall every component, restart, and find the latest official installers.
+##### Drivers
+The main (e.g., graphical) drivers **shouldn't be installed through Windows Updates**, so it's recommended to reinstall them through official ways. To uninstall them, use [Display Driver Uninstaller](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html "Display Driver Uninstaller"), where you should **check all "remove"** specific options, and also very important, **check the Windows Update prevent download option**. Uninstall every component, restart, and find the latest official installers ([AMD](https://www.amd.com/en/support)/[NVIDIA](https://www.nvidia.com/download/index.aspx)/[INTEL](https://www.intel.com/content/www/us/en/download-center/home.html)).
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/ddu.png" width="50%" height="50%">
 </p>
 
-Also, don't forget to [activate](https://github.com/massgravel/Microsoft-Activation-Scripts "activate") Windows. It's annoying.
+If your computer has an compatible NVIDIA GPU, you could try [NVCleanstall](https://www.techpowerup.com/download/techpowerup-nvcleanstall/) which is a tool for more **customizable capabilities**, **bloat-free** graphical drivers.
+
+<ol type="i">
+<li>Let it <b>auto-detect</b> the recommended drivers. You should double check.</li>
+
+<p align="center">
+<img src="" width="40%" height="40%">
+</p>
+    
+<li>Select the <b>Recommended</b> components if desired. It depdends on the type of computer and preferences. For laptops <b>Optimus</b> is somewhat required.</li>
+    
+<p align="center">
+<img src="" width="40%" height="40%">
+</p>
+    
+<li>Then for the tweaks, set the <b>preferred</b> ones. You could <b>disable the telemetry</b>, <b>disable custom type of install</b> at all (make it faster), <b>clean the older driver traces</b> (not required if uninstalled trough DDU), <b>add support for custom/older hardware</b>, <b>enable DLSS version indicator</b>, <b>disable MPO</b> (which has to do with a technique that allows different user interface to be displayed on the screen at the same time and appear as if they are layered on top of each othe) - it is usable for stable windowed resolution apps and so on; it's useful but somewhat buggy in older versions, newer drivers should do it just fine. If something is wrong, e.g. there are crashes or slower experiences, this could be a reason, and if so, try to disable it. You can disable <b>Ansel</b> too, which is a in-game screenshot tool. 
+    
+There are also some <b>advanced settings</b> which could break or mess with the drivers and some of them even need repackage and a new signature (incompatible with some anti-cheats). It is able to <b>disable some in-driver telemetry</b>, <b>disable process containers</b> (see task manager), <b>disable the buggy audio timer</b> (not useful if there is no HD Audio component), <b>enable MSI</b> (it allows computer components, be it a GPU, to directly send interrupt messages to the CPU, bypassing the PIC which improves efficiency and reduces latency) - <i>older NVIDIA GPUs didn't have this feature enabled by default</i>. The newest models available probably have it enabled (manual check required). Also, it could <b>disable HDCP</b> (which is a digital copy protection module - some apps and streams will not allow their usage without this one), <b>enable custom patch for nvenc video encoding</b> (in day-to-day usage, the patch is beneficial for users who frequently work with video encoding tasks or streamers who need to encode multiple video streams at the same time).</li>
+
+<p align="center">
+<img src="" width="40%" height="40%">
+</p>
+
+</ol>
+    
+Furthermore, for <b>AMD-enabled GPUs</b> there is no identical replacement. The closest available alternative in terms of operating mechanism would be [RadeonSoftwareSlimmer](https://github.com/GSDragoon/RadeonSoftwareSlimmer).
+
+    
+<p align="center">
+<img src="" width="40%" height="40%">
+</p>
+
+##### Misc
+
+In addition, don't forget to [activate](https://github.com/massgravel/Microsoft-Activation-Scripts "activate") Windows and <i>other</i> components.
 
 #### Debloating
 
