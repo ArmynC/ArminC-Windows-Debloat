@@ -152,13 +152,13 @@ If your computer has an compatible NVIDIA GPU, you could try [NVCleanstall](http
 <li>Let it <b>auto-detect</b> the recommended drivers. You should double check.</li>
 
 <p align="center">
-<img src="" width="40%" height="40%">
+<img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/nvcleanstall_auto_detect.png" width="40%" height="40%">
 </p>
     
 <li>Select the <b>Recommended</b> components if desired. It depdends on the type of computer and preferences. For laptops <b>Optimus</b> is somewhat required.</li>
     
 <p align="center">
-<img src="" width="40%" height="40%">
+<img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/nvcleanstall_components.png" width="40%" height="40%">
 </p>
     
 <li>Then for the tweaks, set the <b>preferred</b> ones. You could <b>disable the telemetry</b>, <b>disable custom type of install</b> at all (make it faster), <b>clean the older driver traces</b> (not required if uninstalled trough DDU), <b>add support for custom/older hardware</b>, <b>enable DLSS version indicator</b>, <b>disable MPO</b> (which has to do with a technique that allows different user interface to be displayed on the screen at the same time and appear as if they are layered on top of each othe) - it is usable for stable windowed resolution apps and so on; it's useful but somewhat buggy in older versions, newer drivers should do it just fine. If something is wrong, e.g. there are crashes or slower experiences, this could be a reason, and if so, try to disable it. You can disable <b>Ansel</b> too, which is a in-game screenshot tool. 
@@ -166,16 +166,15 @@ If your computer has an compatible NVIDIA GPU, you could try [NVCleanstall](http
 There are also some <b>advanced settings</b> which could break or mess with the drivers and some of them even need repackage and a new signature (incompatible with some anti-cheats). It is able to <b>disable some in-driver telemetry</b>, <b>disable process containers</b> (see task manager), <b>disable the buggy audio timer</b> (not useful if there is no HD Audio component), <b>enable MSI</b> (it allows computer components, be it a GPU, to directly send interrupt messages to the CPU, bypassing the PIC which improves efficiency and reduces latency) - <i>older NVIDIA GPUs didn't have this feature enabled by default</i>. The newest models available probably have it enabled (manual check required). Also, it could <b>disable HDCP</b> (which is a digital copy protection module - some apps and streams will not allow their usage without this one), <b>enable custom patch for nvenc video encoding</b> (in day-to-day usage, the patch is beneficial for users who frequently work with video encoding tasks or streamers who need to encode multiple video streams at the same time).</li>
 
 <p align="center">
-<img src="" width="40%" height="40%">
+<img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/nvcleanstall_tweaks.png" width="40%" height="40%">
 </p>
 
 </ol>
     
-Furthermore, for <b>AMD-enabled GPUs</b> there is no identical replacement. The closest available alternative in terms of operating mechanism would be [RadeonSoftwareSlimmer](https://github.com/GSDragoon/RadeonSoftwareSlimmer).
+Furthermore, for <b>AMD-enabled GPUs</b> there is no identical replacement. Their official installer has very few bloated components, making it unecesarry to unbloat it. But still, the closest available alternative in terms of operating mechanism would be [RadeonSoftwareSlimmer](https://github.com/GSDragoon/RadeonSoftwareSlimmer), which is pretty straight forward.
 
-    
 <p align="center">
-<img src="" width="40%" height="40%">
+<img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/radeon_software_slimmer.png" width="40%" height="40%">
 </p>
 
 ##### Misc
