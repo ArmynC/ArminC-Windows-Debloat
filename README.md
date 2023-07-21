@@ -20,7 +20,7 @@
 <tr>
 <td>
 
-**ArminC Windows Debloat** is an introduction to my method of  configuring the Windows operating system without all of the  **bloat** and **annoying features**  while keeping it  **stable** and **functional** in all scenario.
+**ArminC Windows Debloat** is an introduction to my method of  configuring the Windows operating system without all of the  **bloat** and **annoying features**  while keeping it  **stable** and **functional** in all scenarios.
 
 The chosen options should be up to everyone's preference and according to the computer's configuration.
 
@@ -39,7 +39,7 @@ First and foremost, you must obtain the **.iso** image file of Microsoft Windows
 <li><b>Unofficial</b> pre-built images:</li>
 
 <ol type="i">
-<li><a href="https://forum.rg-adguard.net/forums/windows-11.76/">Assembly</a> based on original Windows Unified Update Platform, with <b>minimal modifications</b>, such as disabled system requirements check and account creation, integration of the most recent updates, SmartFix, Microsoft DaRT. (<b>Recommended</b>)</li>
+<li><a href="https://forum.rg-adguard.net/forums/windows-11.76/">Assembly</a> based on the original Windows Unified Update Platform, with <b>minimal modifications</b>, such as disabled system requirements check and account creation, integration of the most recent updates, SmartFix and Microsoft DaRT. (<b>Recommended</b>)</li>
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/rg_adguard.png" width="30%" height="30%">
@@ -47,7 +47,7 @@ First and foremost, you must obtain the **.iso** image file of Microsoft Windows
 <sub>rg adguard assembly</sub>
 </p>
 
-<li><a href="https://www.teamos.xyz/forums/windows-11-x64.159/">Multiple customs build</a>, be it touched or untouched, including <b>modifications</b>, as disabled system requirements  check or even total reskin.</li>
+<li><a href="https://www.teamos.xyz/forums/windows-11-x64.159/">Multiple custom builds</a>, be they touched or untouched, including <b>modifications</b> such as disabled system requirements checks or even total reskins.</li>
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/teamos.png" width="30%" height="30%">
@@ -83,7 +83,7 @@ First and foremost, you must obtain the **.iso** image file of Microsoft Windows
 If the **.iso** image file has been **completed**, now is the time to create a bootable flash drive. In order to do this, you'll need an utility. There are several ways:
 
 <ol type="i">
-<li><a href="https://www.ventoy.net/en/index.html">Ventoy</a> is an utility which creates a bootable usb, by <i>directly booting</i> the .iso file, without the need for the usb to be formatted.</li>
+<li><a href="https://www.ventoy.net/en/index.html">Ventoy</a> is a utility that creates a bootable USB, by <i>directly booting</i> the .iso file without the need for the USB to be formatted.</li>
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/ventoy_bios.png" width="40%" height="40%">
@@ -91,7 +91,7 @@ If the **.iso** image file has been **completed**, now is the time to create a b
 <sub>Ventoy</sub>
 </p>
     
-<li><a href="https://rufus.ie/en/">Rufus</a> is an utility which creates a bootable usb, by <i>burning</i> the .iso file.</li>
+<li><a href="https://rufus.ie/en/">Rufus</a> is a utility that creates a bootable USB, by <i>burning</i> the .iso file.</li>
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/rufus.png" width="40%" height="40%">
@@ -105,7 +105,7 @@ Depending on the chosen settings, the application may ask if you want to **stop 
 
 ### Installing Windows
 
-Near the end of the installation, if you haven't downloaded a pre-built image with sequence skip, you will be asked about **privacy** preferences. Try to **disable/reject** them. Also, try to <b>avoid</b> connecting the device to Internet during the setup.
+Near the end of the installation, if you haven't downloaded a pre-built image with sequence skip, you will be asked about **privacy** preferences. Try to **disable/reject** them. Also, try to <b>avoid</b> connecting the device to the Internet during the setup.
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/privacy.png" width="50%" height="50%">
@@ -118,12 +118,12 @@ Near the end of the installation, if you haven't downloaded a pre-built image wi
 If you are done with it, now you should prepare the operating system.
 
 ##### The browser
-The first thing on the list, try to change the browser. **[Firefox](https://www.mozilla.org/en-US/firefox/new/ "Firefox")** is the most optimal variant, even for *extension capabilities*. About that, see my [uBlock Settings](https://github.com/ArmynC/ArminC-uBlock-Settings "uBlock Settings"). Some of the other good extensions are [Bitwarden](https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/ "Bitwarden"), [Translate Web Pages](https://addons.mozilla.org/en-US/firefox/addon/traduzir-paginas-web/ "Translate Web Pages"), [Location Guard](https://addons.mozilla.org/en-US/firefox/addon/location-guard/ "Location Guard"), [FastForward](https://github.com/FastForwardTeam/FastForward "FastForward"). Some YouTube ones include [Return Youtube Dislikes](https://addons.mozilla.org/en-US/firefox/addon/return-youtube-dislikes/ "Return YouTube Dislikes"), [Thumbnail Rating Bar for YouTube](https://addons.mozilla.org/en-US/firefox/addon/youtube-thumbnail-rating-bar/ "Thumbnail Rating Bar for YouTube"), [YouTooltip](https://addons.mozilla.org/en-US/firefox/addon/youtooltip/ "YouTooltip"), [Watchmarker for Youtube](https://addons.mozilla.org/en-US/firefox/addon/watchmarker-for-youtube/ "Watchmarker for Youtube") ...
+The first thing on the list is to try to change the browser. **[Firefox](https://www.mozilla.org/en-US/firefox/new/ "Firefox")** is the most optimal variant, even for *extension capabilities*. About that, see my [uBlock Settings](https://github.com/ArmynC/ArminC-uBlock-Settings "uBlock Settings"). Some of the other good extensions are [Bitwarden](https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/ "Bitwarden"), [Translate Web Pages](https://addons.mozilla.org/en-US/firefox/addon/traduzir-paginas-web/ "Translate Web Pages"), [Location Guard](https://addons.mozilla.org/en-US/firefox/addon/location-guard/ "Location Guard"), [FastForward](https://github.com/FastForwardTeam/FastForward "FastForward"). Some YouTube ones include [Return YouTube Dislikes](https://addons.mozilla.org/en-US/firefox/addon/return-youtube-dislikes/ "Return YouTube Dislikes"), [Thumbnail Rating Bar for YouTube](https://addons.mozilla.org/en-US/firefox/addon/youtube-thumbnail-rating-bar/ "Thumbnail Rating Bar for YouTube"), [YouTooltip](https://addons.mozilla.org/en-US/firefox/addon/youtooltip/ "YouTooltip"), [Watchmarker for YouTube](https://addons.mozilla.org/en-US/firefox/addon/watchmarker-for-youtube/ "Watchmarker for YoutTube") ...
 
 ##### Other apps
-Next thing, for all the other steps, you'll need a file archiver, [7-Zip](https://www.7-zip.org/ "7-Zip") is a good variant, it's even *open-source*.
+Next, for all the other steps, you'll need a file archiver. [7-Zip](https://www.7-zip.org/ "7-Zip") is a good variant; it's even *open-source*.
 
-For the peace of mind, it is a good habit to **install an antivirus**, depending on your Windows image, the default one, **Defender**, may be removed, disabled, or even working. For some, it is good enough, but I prefer to get [Kaspersky Security Cloud (Free)](https://www.kaspersky.com/free-antivirus "Kaspersky Security Cloud (Free)"), or even [BitDefender(Free)](https://www.bitdefender.com/solutions/free.html). Kaspersky has almost every protection module of its premium counterpart, and it is smart enough to **disable itself when resources are needed**, for example in gaming.
+For peace of mind, it is a good habit to **install an antivirus**. Depending on your Windows image, the default one, **Defender**, may be removed, disabled, or even working. For some, it is good enough, but I prefer to get [Kaspersky Security Cloud (Free)](https://www.kaspersky.com/free-antivirus "Kaspersky Security Cloud (Free)") or even [BitDefender (Free)](https://www.bitdefender.com/solutions/free.html). Kaspersky has almost every protection module of its premium counterpart, and it is smart enough to **disable itself when resources are needed**, for example, in gaming.
 
 
 ##### Updates
@@ -140,64 +140,85 @@ Then, if desired, do the same for **Windows Store**, and only after that, **disa
 </p>
 
 ##### Drivers
-The main (e.g., graphical) drivers **shouldn't be installed through Windows Updates**, so it's recommended to reinstall them through official ways. To uninstall them, use [Display Driver Uninstaller](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html "Display Driver Uninstaller"), where you should **check all "remove"** specific options, and also very important, **check the Windows Update prevent download option**. Uninstall every component, restart, and find the latest official installers ([AMD](https://www.amd.com/en/support)/[NVIDIA](https://www.nvidia.com/download/index.aspx)/[INTEL](https://www.intel.com/content/www/us/en/download-center/home.html)).
+The main (e.g., graphical) drivers **shouldn't be installed through Windows Updates**, so it's recommended to reinstall them through official means. To uninstall them, use [Display Driver Uninstaller](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html "Display Driver Uninstaller"), where you should **check all "remove"** specific options and also very important, **check the Windows Update prevent download option**. Uninstall every component, restart, and find the latest official installers ([AMD](https://www.amd.com/en/support)/[NVIDIA](https://www.nvidia.com/download/index.aspx)/[INTEL](https://www.intel.com/content/www/us/en/download-center/home.html)).
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/ddu.png" width="50%" height="50%">
 </p>
 
-If your computer has an compatible NVIDIA GPU, you could try [NVCleanstall](https://www.techpowerup.com/download/techpowerup-nvcleanstall/) which is a tool for more **customizable capabilities**, **bloat-free** graphical drivers.
+If your computer has a compatible NVIDIA GPU, you could try [NVCleanstall](https://www.techpowerup.com/download/techpowerup-nvcleanstall/), which is a tool for more **customizable capabilities**, **bloat-free** graphical drivers.
 
 <ol type="i">
-<li>Let it <b>auto-detect</b> the recommended drivers. You should double check.</li>
+<li>Let it <b>auto-detect</b> the recommended drivers. You should-double check.</li>
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/nvcleanstall_auto_detect.png" width="40%" height="40%">
 </p>
     
-<li>Select the <b>Recommended</b> components if desired. It depdends on the type of computer and preferences. For laptops <b>Optimus</b> is somewhat required.</li>
+<li>Select the <b>Recommended</b> components if desired. It depends on the type of computer and your preferences. For laptops, <b>Optimus</b> is somewhat required.</li>
     
 <p align="center">
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/nvcleanstall_components.png" width="40%" height="40%">
 </p>
     
-<li>Then for the tweaks, set the <b>preferred</b> ones. You could <b>disable the telemetry</b>, <b>disable custom type of install</b> at all (make it faster), <b>clean the older driver traces</b> (not required if uninstalled trough DDU), <b>add support for custom/older hardware</b>, <b>enable DLSS version indicator</b>, <b>disable MPO</b> (which has to do with a technique that allows different user interface to be displayed on the screen at the same time and appear as if they are layered on top of each othe) - it is usable for stable windowed resolution apps and so on; it's useful but somewhat buggy in older versions, newer drivers should do it just fine. If something is wrong, e.g. there are crashes or slower experiences, this could be a reason, and if so, try to disable it. You can disable <b>Ansel</b> too, which is a in-game screenshot tool. 
+<li>Then, for the tweaks, set the <b>preferred</b> ones. You could <b>disable the telemetry</b>, <b>disable custom type of install</b> at all (make it faster), <b>clean the older driver traces</b> (not required if uninstalled  through DDU), <b>add support for custom/older hardware</b>, <b>enable the DLSS version indicator</b>, <b>disable MPO</b> (which has to do with a technique that allows different user interfaces to be displayed on the screen at the same time and appear as if they are layered on top of each other) - it is usable for stable windowed resolution apps, and so on; it's useful but somewhat buggy in older versions, newer drivers should do it just fine. If something is wrong, e.g., there are crashes or slower experiences, this could be a reason, and if so, try to disable it. You can disable <b>Ansel</b> too, which is a in-game screenshot tool. 
     
-There are also some <b>advanced settings</b> which could break or mess with the drivers and some of them even need repackage and a new signature (incompatible with some anti-cheats). It is able to <b>disable some in-driver telemetry</b>, <b>disable process containers</b> (see task manager), <b>disable the buggy audio timer</b> (not useful if there is no HD Audio component), <b>enable MSI</b> (it allows computer components, be it a GPU, to directly send interrupt messages to the CPU, bypassing the PIC which improves efficiency and reduces latency) - <i>older NVIDIA GPUs didn't have this feature enabled by default</i>. The newest models available probably have it enabled (manual check required). Also, it could <b>disable HDCP</b> (which is a digital copy protection module - some apps and streams will not allow their usage without this one), <b>enable custom patch for nvenc video encoding</b> (in day-to-day usage, the patch is beneficial for users who frequently work with video encoding tasks or streamers who need to encode multiple video streams at the same time).</li>
+There are also some <b>advanced settings</b> that could break or mess with the drivers, and some of them even need repackaging and a new signature (incompatible with some anti-cheats). It is able to <b>disable some in-driver telemetry</b>, <b>disable process containers</b> (see task manager), <b>disable the buggy audio timer</b> (not useful if there is no HD Audio component), <b>enable MSI</b> (it allows computer components, be it a GPU, to directly send interrupt messages to the CPU, bypassing the PIC, which improves efficiency and reduces latency) - <i>older NVIDIA GPUs didn't have this feature enabled by default</i>. The newest models available probably have it enabled (manual check is required). Also, it could <b>disable HDCP</b> (which is a digital copy protection module - some apps and streams will not allow their usage without this one), <b>enable custom patch for nvenc video encoding</b> (in day-to-day usage, the patch is beneficial for users who frequently work with video encoding tasks or streamers who need to encode multiple video streams at the same time).</li>
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/nvcleanstall_tweaks.png" width="40%" height="40%">
 </p>
     
-<li>When the <b>install is done</b>, there are some settings to do.
+<li>When the <b>install is done</b>, there are some settings to make.
 
-The main goal is to allow applications to run their <i>own settings</i> and not be forced. In general, only something that can only be externally enabled should be used. Any additional settings (e.g. Low Latency Mode) should be done <b>on a per-application basis</b> (in 3D Settings > Program Settings).
+The main goal is to allow applications to run their <i>own settings</i> and not be forced. In general, only something that can be externally enabled should be used. Any additional settings (e.g., Low Latency Mode) should be done <b>on a per-application basis</b> (in 3D Settings > Program Settings).
 </li>
     
-So, firsty, activate <b>Use the advanced 3D image settings</b> and then go to <i>Global Settings</i>.
+So, firstly, activate <b>Use the advanced 3D image settings</b> and then go to <i>Global Settings</i>.
     
     
 
 | Feature | My setting | Description |
 | -------- | -------- | -------- |
-| Image Scaling     | OFF     | Upscaling technology, less computationally expensive but with worse image quality than DLSS. Driver function, works in all games and no special hardware required.      |
-| Ambient Occlusion | OFF | Adds subtle shadows and shading to the areas where objects or surfaces meet and to the areas that are not directly lit. Better set up directly by the application. Can be used for games that are too old to implement this feature by themselves. |
-| Anisotropic filtering | x16/OFF | Improves the quality of textures (smooth out make them look sharper) on surfaces that are viewed at an angle. Noticeable on textures that are seen at a steep angle, such as walls or floors. Without it, textures can appear blurry and pixelated. Sometimes is relevant to enforce high texture filtering globally (not in-game) due to potential quality issues with individual developer solutions. Also, can be use if the game lacks a native "Anisotropic Filtering" option, has limited anisotropic option (up to 4x AF), and supports only up to "Trilinear Filtering." |
-| Antialiasing - FXAA | OFF | It smoothens the jagged edges (through bluring) and flickering with less of a performance impact than other antialiasing settings. Doesn't make graphics look as smooth as other traditional methods like MSAA. May spoil the look of more text-based games. |
-| Antialiasing - Gamma correction | OFF | Is a method to adjust brightness data for displays so that displayed content appears more natural. Displays are not linear, so gamma correction makes sure the brightness levels match the eye perception. This is a feature that mostly alters the image rather than enhancing it. Used in OpenGL applications. |
-| Antialiasing - Mode | Application-controlled | It determines how antialiasing is applied to games. Enhancing the application setting, may improve the image quality of the game. It is recommended to let the game automatically select the most suitable antialiasing method based on your graphics card and the game's graphics settings. Otherwise, any custom settings may break or alter the graphics. |
+| Image Scaling     | OFF     | An upscaling technology that is less computationally expensive but has worse image quality than DLSS. Driver function. Works in all games, and no special hardware is required.      |
+| Ambient Occlusion | OFF | Adds subtle shadows and shading to the areas where objects or surfaces meet and to areas that are not directly lit. Better set up directly by the application. Can be used for games that are too old to implement this feature by themselves. |
+| Anisotropic filtering | x16/OFF | Improves the quality of textures (enhances their smoothness to make them appear sharper) on surfaces that are viewed at an angle. Noticeable on textures that are seen at a steep angle, such as walls or floors. Without it, textures can appear blurry and pixelated. Sometimes it is relevant to enforce high texture filtering globally (not in-game) due to potential quality issues with individual developer solutions. Also, it can be used if the game lacks a native "Anisotropic Filtering" option, has a limited anisotropic option (up to 4x AF), and supports only up to "Trilinear Filtering". |
+| Antialiasing - FXAA | OFF | It smooths the jagged edges (through blurring) and flickering with less of a performance impact than other antialiasing settings. Doesn't make graphics look as smooth as other traditional methods like MSAA. May spoil the look of more text-based games. |
+| Antialiasing - Gamma correction | OFF | Is a method to adjust brightness data for displays so that shown content appears more natural. Displays are not linear, so gamma correction makes sure the brightness levels match the eye's perception. This is a feature that mostly alters the image rather than enhancing it. |
+| Antialiasing - Mode | Application-controlled | It determines how antialiasing is applied to games. Enhancing the application setting may improve the image quality of the game. It is recommended to let the game automatically select the most suitable antialiasing method based on your graphics card and the game's graphics settings. Otherwise, any custom settings may break or alter the graphics. |
 | Antialiasing - Transparency | OFF | Can improve the appearance of transparent objects, such as glass and water, by making them appear smoother and less jagged. Requires MSAA in order to work. |
 | Background Application Max Frame Rate | 30 | Controls the maximum frame rate that games and other applications can run at when they are not in focus. By limiting the frame rate, you can save power and improve the performance of your computer. |
 | DSR - Factors | 2.25 (DL Scaling) | The feature allows users to render games at a resolution higher than their monitor's native resolution and then scale down the image to fit their monitor's resolution. Can lead to enhanced sharpness and more detailed visuals. DSR factors serve as multipliers that users can apply to increase their game's resolution. For instance, if a monitor's native resolution is 1080p, employing a DSR factor of 2x would enable rendering games at a resolution of 2160p. |
-| DSR - Smoothness | 33% | It adjusts the sharpness or smoothness of the image, especially if there are blurry spots or jagged edges on the image. Higher values may induce a lot of blur in background. |
-    
-    
-    
+| DSR - Smoothness | 33% | It adjusts the sharpness or smoothness of the image, especially if there are blurry spots or jagged edges on the image. Higher values may induce a lot of blur in the background. |
+| Low Latency Mode | OFF (set per individual game) | The technology reduces the delay between a user's actions in a game and the corresponding reactions on the screen. This is achieved by minimizing the number of frames queued up in the graphics pipeline. As a result, the responsiveness of the games is notably improved, particularly in competitive multiplayer. When a game supports the Reflex Low Latency mode, the preference is to utilize that mode instead of the Ultra Low Latency mode in the driver. Nonetheless, when both modes are enabled, the Reflex Low Latency mode will be given higher priority automatically for the user. On value limits the number of queued frames to 1, which can reduce latency but may also lead to stuttering. Ultra minimizes the number of queued frames even further, which can reduce latency even more but may also lead to more stuttering. | 
+| Max Frame Rate | OFF | Limit the maximum frame rate for a game or application. Can be useful for power savings, reduced input lag, and preserving the Variable Refresh Rate range. Better used by in-game settings. |    
+| Multi-Frame Sampled AA (MFAA) | OFF (sometimes can be set per individual game) | An anti-aliasing technique developed by NVIDIA that improves upon the quality of traditional multisample anti-aliasing (MSAA) while reducing the performance impact. It does this by using a technique called temporal supersampling. MFAA recognizes that the averaging done by MSAA can be done over time by changing sample positions in each frame and applying a filter. This allows MFAA to provide image quality similar to 2x MSAA with almost no impact on performance. The ultimate objective is to provide comparable antialiasing such that MSAA 2x + MFAA ideally achieves MSAA 4x quality at a similar performance cost to MSAA 2x. As a drawback, this function can possibly disable D3D11 Driver Command Lists, which can hinder multi-threaded rendering, resulting in decreased performance, especially when CPU-limited. Also, MFAA exhibits suboptimal performance when the FPS is already low, as it can lead to motion smearing and blurring issues. |
+| OpenGL GDI compatibility | Auto | The way to render OpenGL applications. Prefer Compatible OpenGL prioritizes battery life, while Prefer Optimized OpenGL prioritizes performance. Beneficial for laptops and notebook PCs, as it enables users to choose between performance and power optimizations for OpenGL windows. Selecting either option may conflict with applications utilizing both OpenGL and GDI rendering. For laptop users, it is recommended to set it to Auto and allow the driver to determine the appropriate behavior. |   
+| Power management mode | Normal - Optimal Power | It dictates how the GPU behaves in relation to power usage, performance, and frame rates. Adaptive mode exhibits a smoother (nearly power-saving) linear voltage scaling compared to Optimal, where voltage is dynamically adjusted more aggressively based on in-game utilization. On the other hand, Maximum Performance mode targets the highest clock or voltage, regardless of whether it is necessary for the game. |
+| Shader Cache Size | Driver Default | Stores pre-compiled shader code in the computer's storage. When a game or application first starts up, the GPU needs to compile the shader code for each shader it will use. This can take a few seconds, and it can cause the game or application to stutter or lag as it waits for the shaders to compile. With shader cache enabled, the GPU will store the pre-compiled shader code for each shader it has seen before. Drawbacks include increased computer storage usage due to storing pre-compiled shader code and the possibility of cache invalidation when changes are made to the game or application files, requiring recompilation of affected shaders. The default value is about 4 GB. |
+| Texture filtering - Anisotropic sample optimization | OFF | Reduces the number of AF samples depending on the texel size (texture pixel), which is influenced by factors such as texture resolution, polygon size, and display resolution. However, implementing this optimization may result in potential side effects, including blurring and shimmering. |
+| Texture filtering - Negative LOD bias | Allow | Adjust the level of detail of the textures. A negative LOD bias reduces the level of detail used in texture filtering, which can result in sharper and crisper textures, especially at smaller mipmap levels. This can help improve performance by rendering textures at lower levels of detail when they are far away and at higher levels of detail when they are close. A negative LOD bias can lead to reduced performance due to increased rendering of distant texture details and may also cause texture flickering when the GPU switches between different levels of detail for textures. For users not utilizing DLSS, clamping is recommended, while those employing DLSS should opt for the Allow setting (which may enhance temporal stability but can also lead to flickering and moire, which is scene content-dependent). |
+| Texture filtering - Quality | Quality | A universal setting that optimizes all Anisotropic Filtering settings globally. The most settings can be toggled manually if Quality value is chosen. |
+| Texture filtering - Trilinear optimization | OFF | It enhances the performance of trilinear texture filtering. Trilinear filtering is a method used in 3D computer graphics to improve the visual quality of textures when they are displayed at different levels of detail or viewed from varying distances. When it is enabled, the graphics driver employs an efficient algorithm to adjust the level of detail for textures dynamically, optimizing the process and improving performance. |
+| Triple Buffering | OFF (sometimes can be set per individual game) | It works by keeping three frames in the buffer at once. This allows the GPU to start rendering the next frame before the previous frame has been displayed. Aims to improve frame rate consistency and reduce screen tearing in 3D applications, particularly games. It is an alternative to double buffering, which is the default buffering method used in most games. Can be used in scenarios where screen tearing is noticeable and input lag is not a significant concern. Used in combination with V-Sync. |
+| Vertical sync | Use the 3D Application setting (set per individual game) | Synchronizes the frame rate of a game with the refresh rate of the monitor. This helps to prevent tearing, which is a visual artifact that can occur when the game is drawing frames faster than the monitor can refresh. The game will only render frames when the monitor is ready to display them. This can help prevent tearing, but it can also introduce input lag. If the FPS drops significantly below the monitor's refresh rate, V-Sync can cause stuttering. |
+| Virtual Reality pre-rendered frames  | 1/Use the 3D Application setting | Controls the number of frames that are rendered ahead of time in VR games. A higher value can help improve performance and reduce stuttering in VR games. Also, a higher value can induce dizziness. |
+| Virtual Reality - Variable Rate Super Sampling | Adaptive | Dynamically adjust the super sampling level in VR games. This can help improve performance and reduce stuttering without sacrificing image quality. VRS works by rendering different parts of the scene at different levels of detail. The parts of the scene that are in focus are rendered at a higher level of detail, while the parts of the scene that are not in focus are rendered at a lower level of detail. Always On value uses a fixed super sampling level for all frames. This can provide better image quality, but it can also reduce performance. |
+| Vulkan/OpenGL present method | Auto | Controls how Vulkan and OpenGL games are rendered. Prefer layered on DXGI Swapchain value utilizes a layered DXGI Swapchain for rendering Vulkan and OpenGL games, potentially improving performance but causing stuttering. It treats Vulkan and OpenGL games as if they were DX12 in the final output. While they are still rendered and processed using their original API, the frames are displayed on the monitor through DXGI, allowing Microsoft's new fullscreen optimizations (flip model) to be applied to these APIs. Moreover, Multiplane Overlays (MPOs) can be assigned to Vulkan and OpenGL applications for windowed mode direct present to the monitor, resulting in tearing with v-sync off in windowed mode and reduced input lag overall. Prefer native on DXGI Swapchain value uses the default native DXGI Swapchain, generally considered the best choice for most users. |
+</li>
+
+<li>After everything is set, there is another thing to do. Toggle <b>RTX Video Super Resolution</b>, which is a technology that uses AI to upscale lower resolution video to near-native quality. 
+
+VSR works by using the <i>Tensor Cores</i> to analyze each frame of the video and then reconstruct it at a higher resolution. This process is done in real-time, so there is no need to pre-render the video at a higher resolution. Some disadvantages of VSR include limited support in video players, potential compatibility issues with certain videos, and the possibility of introducing artifacts, especially during fast-moving scenes.</li>
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/rtx_vsr.png" width="40%" height="40%">
+</p>
 
 
 </ol>
     
-Furthermore, for <b>AMD-enabled GPUs</b> there is no identical replacement. Their official installer has very few bloated components, making it unecesarry to unbloat it. But still, the closest available alternative in terms of operating mechanism would be [RadeonSoftwareSlimmer](https://github.com/GSDragoon/RadeonSoftwareSlimmer), which is pretty straight forward.
+Furthermore, for <b>AMD-enabled GPUs</b>, there is no identical replacement. Their official installer has very few bloated components, making it unnecessary to unbloat it. But still, the closest available alternative in terms of operating mechanism would be [RadeonSoftwareSlimmer](https://github.com/GSDragoon/RadeonSoftwareSlimmer), which is pretty straight-forward.
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/radeon_software_slimmer.png" width="60%" height="60%">
@@ -215,13 +236,13 @@ The default Taskbar, Start Menu, Context Menu, and File Explorer experiences are
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/startallback.png" width="50%" height="50%">
 </p>
 
-The first part of **debloating** is through [O&O Shutup](https://www.oo-software.com/en/shutup10 "O&O Shutup"). It can tweak most the usual settings. [Here is my exported configuration](https://github.com/ArmynC/ArminC-Windows-Debloat/blob/main/cfg/ooshutup10.cfg "Here is my exported configuration")... I've tried to combine the efficiency of use with stability. Disabling every feature can lead to compatibility errors. 
+The first part of **debloating** is through [O&O Shutup](https://www.oo-software.com/en/shutup10 "O&O Shutup"). It can tweak most of the usual settings. [Here is my exported configuration](https://github.com/ArmynC/ArminC-Windows-Debloat/blob/main/cfg/ooshutup10.cfg "Here is my exported configuration")... I've tried to combine efficiency with stability. Disabling every feature can lead to compatibility errors. 
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/oo_shutup.png" width="50%" height="50%">
 </p>
 
-The second part is through [SohpiApp](https://github.com/Sophia-Community/SophiApp "SohpiApp"). It has some more in-depth settings. You can **disable some services** that are not needed and even **uninstall UWP apps**. Try to uninstall any app not needed (e.g., help, maps) but **avoid uninstalling the complex ones, linked to the operating system** such as Edge, Cortana or Xbox if not needed. These days, Windows is so interconnected that it will be difficult or almost impossible to use it in this way without any errors, at all.
+The second part is through [SohpiApp](https://github.com/Sophia-Community/SophiApp "SohpiApp"). It has some more in-depth settings. You can **disable some services** that are not needed and even **uninstall UWP apps**. Try to uninstall any app not needed (e.g., help, maps), but **avoid uninstalling the complex ones, linked to the operating system**, such as Edge, Cortana, or Xbox, if not needed. These days, Windows is so interconnected that it will be difficult or almost impossible to use it in this way without any errors at all.
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/sophiapp.png" width="50%" height="50%">
