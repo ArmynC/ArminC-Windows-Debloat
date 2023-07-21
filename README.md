@@ -168,6 +168,32 @@ There are also some <b>advanced settings</b> which could break or mess with the 
 <p align="center">
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/nvcleanstall_tweaks.png" width="40%" height="40%">
 </p>
+    
+<li>When the <b>install is done</b>, there are some settings to do.
+
+The main goal is to allow applications to run their <i>own settings</i> and not be forced. In general, only something that can only be externally enabled should be used. Any additional settings (e.g. Low Latency Mode) should be done <b>on a per-application basis</b> (in 3D Settings > Program Settings).
+</li>
+    
+So, firsty, activate <b>Use the advanced 3D image settings</b> and then go to <i>Global Settings</i>.
+    
+    
+
+| Feature | My setting | Description |
+| -------- | -------- | -------- |
+| Image Scaling     | OFF     | Upscaling technology, less computationally expensive but with worse image quality than DLSS. Driver function, works in all games and no special hardware required.      |
+| Ambient Occlusion | OFF | Adds subtle shadows and shading to the areas where objects or surfaces meet and to the areas that are not directly lit. Better set up directly by the application. Can be used for games that are too old to implement this feature by themselves. |
+| Anisotropic filtering | x16/OFF | Improves the quality of textures (smooth out make them look sharper) on surfaces that are viewed at an angle. Noticeable on textures that are seen at a steep angle, such as walls or floors. Without it, textures can appear blurry and pixelated. Sometimes is relevant to enforce high texture filtering globally (not in-game) due to potential quality issues with individual developer solutions. Also, can be use if the game lacks a native "Anisotropic Filtering" option, has limited anisotropic option (up to 4x AF), and supports only up to "Trilinear Filtering." |
+| Antialiasing - FXAA | OFF | It smoothens the jagged edges (through bluring) and flickering with less of a performance impact than other antialiasing settings. Doesn't make graphics look as smooth as other traditional methods like MSAA. May spoil the look of more text-based games. |
+| Antialiasing - Gamma correction | OFF | Is a method to adjust brightness data for displays so that displayed content appears more natural. Displays are not linear, so gamma correction makes sure the brightness levels match the eye perception. This is a feature that mostly alters the image rather than enhancing it. Used in OpenGL applications. |
+| Antialiasing - Mode | Application-controlled | It determines how antialiasing is applied to games. Enhancing the application setting, may improve the image quality of the game. It is recommended to let the game automatically select the most suitable antialiasing method based on your graphics card and the game's graphics settings. Otherwise, any custom settings may break or alter the graphics. |
+| Antialiasing - Transparency | OFF | Can improve the appearance of transparent objects, such as glass and water, by making them appear smoother and less jagged. Requires MSAA in order to work. |
+| Background Application Max Frame Rate | 30 | Controls the maximum frame rate that games and other applications can run at when they are not in focus. By limiting the frame rate, you can save power and improve the performance of your computer. |
+| DSR - Factors | 2.25 (DL Scaling) | The feature allows users to render games at a resolution higher than their monitor's native resolution and then scale down the image to fit their monitor's resolution. Can lead to enhanced sharpness and more detailed visuals. DSR factors serve as multipliers that users can apply to increase their game's resolution. For instance, if a monitor's native resolution is 1080p, employing a DSR factor of 2x would enable rendering games at a resolution of 2160p. |
+| DSR - Smoothness | 33% | It adjusts the sharpness or smoothness of the image, especially if there are blurry spots or jagged edges on the image. Higher values may induce a lot of blur in background. |
+    
+    
+    
+
 
 </ol>
     
