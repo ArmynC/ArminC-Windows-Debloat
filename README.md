@@ -212,7 +212,7 @@ So, firstly, activate <b>Use the advanced 3D image settings</b> and then go to <
 VSR works by using the <i>Tensor Cores</i> to analyze each frame of the video and then reconstruct it at a higher resolution. This process is done in real-time, so there is no need to pre-render the video at a higher resolution. Some disadvantages of VSR include limited support in video players, potential compatibility issues with certain videos, and the possibility of introducing artifacts, especially during fast-moving scenes.</li>
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/rtx_vsr.png" width="70%" height="70%">
+<img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/rtx_vsr.png" width="40%" height="40%">
 </p>
 
 
@@ -220,11 +220,18 @@ VSR works by using the <i>Tensor Cores</i> to analyze each frame of the video an
     
 Furthermore, for <b>AMD-enabled GPUs</b>, there is no identical replacement. Their official installer has very few bloated components, making it unnecessary to unbloat it. But still, the closest available alternative in terms of operating mechanism would be [RadeonSoftwareSlimmer](https://github.com/GSDragoon/RadeonSoftwareSlimmer), which is pretty straight-forward.
 
+
 <p align="center">
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/radeon_software_slimmer.png" width="60%" height="60%">
 </p>
 
 ##### Misc
+
+Additionally, based on preference, **Memory integrity (Core Isolation)** could be **disabled**. It's a feature of the Windows operating system that helps protect the computer from malware attacks. It does this by using hardware virtualization to create a secure area in your computer's memory where important system processes run. This area is protected from malware that attempts to modify or inject code into it. Its downside is that it can have a **negative impact on performance**, especially when running demanding applications.
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/core_isolation_memory_integrity.png" width="70%" height="70%">
+</p>
 
 In addition, don't forget to [activate](https://github.com/massgravel/Microsoft-Activation-Scripts "activate") Windows and <i>other</i> components.
 
