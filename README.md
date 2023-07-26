@@ -101,6 +101,14 @@ If the **.iso** image file has been **completed**, now is the time to create a b
 
 Depending on the chosen settings, the application may ask if you want to **stop the Windows requirement checks**.
 
+<li><a href="https://github.com/WoeUSB/WoeUSB-ng">WoeUSB-ng</a> is a <b>Linux</b>-<i>direct alternative</i> for Rufus. It alows the creation of stable, bootable Windows ISOs for multiple distros.</li>
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/woeusb-ng.png" width="40%" height="40%">
+<br>
+<sub>WoeUSB-ng</sub>
+</p>
+
 </ol>
 
 ### Installing Windows
@@ -197,7 +205,7 @@ So, firstly, activate <b>Use the advanced 3D image settings</b> and then go to <
 | Power management mode | Normal - Optimal Power | It dictates how the GPU behaves in relation to power usage, performance, and frame rates. Adaptive mode exhibits a smoother (nearly power-saving) linear voltage scaling compared to Optimal, where voltage is dynamically adjusted more aggressively based on in-game utilization. On the other hand, Maximum Performance mode targets the highest clock or voltage, regardless of whether it is necessary for the game. |
 | Shader Cache Size | Driver Default | Stores pre-compiled shader code in the computer's storage. When a game or application first starts up, the GPU needs to compile the shader code for each shader it will use. This can take a few seconds, and it can cause the game or application to stutter or lag as it waits for the shaders to compile. With shader cache enabled, the GPU will store the pre-compiled shader code for each shader it has seen before. Drawbacks include increased computer storage usage due to storing pre-compiled shader code and the possibility of cache invalidation when changes are made to the game or application files, requiring recompilation of affected shaders. The default value is about 4 GB. |
 | Texture filtering - Anisotropic sample optimization | OFF | Reduces the number of AF samples depending on the texel size (texture pixel), which is influenced by factors such as texture resolution, polygon size, and display resolution. However, implementing this optimization may result in potential side effects, including blurring and shimmering. |
-| Texture filtering - Negative LOD bias | Allow | Adjust the level of detail of the textures. A negative LOD bias reduces the level of detail used in texture filtering, which can result in sharper and crisper textures, especially at smaller mipmap levels. This can help improve performance by rendering textures at lower levels of detail when they are far away and at higher levels of detail when they are close. A negative LOD bias can lead to reduced performance due to increased rendering of distant texture details and may also cause texture flickering when the GPU switches between different levels of detail for textures. For users not utilizing DLSS, clamping is recommended, while those employing DLSS should opt for the Allow setting (which may enhance temporal stability but can also lead to flickering and moire, which is scene content-dependent). |
+| Texture filtering - Negative LOD bias | Allow | Adjust the level of detail of the textures. The LOD Bias plays a vital role in managing texture detail by influencing the selection of Mipmaps. Mipmaps consist of a set of precomputed textures, each with varying resolutions, strategically employed to enhance performance. When an individual looks at a nearby surface, the system loads a higher resolution mipmap. As the person moves away from that surface, progressively lower resolution mipmaps are displayed in response to their changing distance. Utilizing a negative LOD Bias allows the displacement of mipmap levels to a greater distance, leading to enhanced texture sharpness. However, this improvement comes at the expense of introducing shimmering effects when textures are in motion. For users not utilizing DLSS, clamping is recommended, while those employing DLSS should opt for the Allow setting (which may enhance temporal stability but can also lead to flickering and moire, which is scene content-dependent). |
 | Texture filtering - Quality | Quality | A universal setting that optimizes all Anisotropic Filtering settings globally. The most settings can be toggled manually if Quality value is chosen. |
 | Texture filtering - Trilinear optimization | OFF | It enhances the performance of trilinear texture filtering. Trilinear filtering is a method used in 3D computer graphics to improve the visual quality of textures when they are displayed at different levels of detail or viewed from varying distances. When it is enabled, the graphics driver employs an efficient algorithm to adjust the level of detail for textures dynamically, optimizing the process and improving performance. |
 | Triple Buffering | OFF (sometimes can be set per individual game) | It works by keeping three frames in the buffer at once. This allows the GPU to start rendering the next frame before the previous frame has been displayed. Aims to improve frame rate consistency and reduce screen tearing in 3D applications, particularly games. It is an alternative to double buffering, which is the default buffering method used in most games. Can be used in scenarios where screen tearing is noticeable and input lag is not a significant concern. Used in combination with V-Sync. |
@@ -237,7 +245,7 @@ In addition, don't forget to [activate](https://github.com/massgravel/Microsoft-
 
 #### Debloating
 
-The default Taskbar, Start Menu, Context Menu, and File Explorer experiences are regrettable. [StartAllBack](https://www.startallback.com/ "StartAllBack") is **enhancing all elements** organically.
+The default Taskbar, Start Menu, Context Menu, and File Explorer experiences are regrettable. [StartAllBack](https://www.startallback.com/ "StartAllBack") is **enhancing all elements** organically. Unfortunately, the animations don't have the same fluency and are sometimes prone to bugs. If you don't want to, you can try other alternatives, such as just returning to the complex context menu through [Winearo Tweaker](https://winaero.com/winaero-tweaker/#download).
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/startallback.png" width="50%" height="50%">
@@ -302,4 +310,4 @@ Reach out to me via the **[profile addresses](https://github.com/ArmynC)**.
 
 ## License
 
-[![License: CC0-1.0](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)](https://tldrlegal.com/license/creative-commons-cc0-1.0-universal)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
