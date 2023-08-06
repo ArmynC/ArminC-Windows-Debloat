@@ -113,6 +113,12 @@ Depending on the chosen settings, the application may ask if you want to **stop 
 
 ### Installing Windows
 
+During the boot, if desired, select <b><language> World</b> from the <i>TimeTime and Currency format</i>. This will proceed with the installation of the operating system without <b>third-party application links</b> in the Start menu. During the setup, configure the out-of-the-box experience (OOBE). In case you encounter the "Something went wrong" error while the wizard attempts to load the region settings, proceed by using the <b>Skip</b> button to bypass the error. Be aware, after installation, you may need to set the <b>Country or region</b> values in settings.
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/windows_boot_time_bloat.png" width="60%" height="60%">
+</p>
+
 Near the end of the installation, if you haven't downloaded a pre-built image with sequence skip, you will be asked about **privacy** preferences. Try to **disable/reject** them. Also, try to <b>avoid</b> connecting the device to the Internet during the setup.
 
 <p align="center">
