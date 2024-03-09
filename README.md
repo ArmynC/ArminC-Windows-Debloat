@@ -20,7 +20,7 @@ $<h1 align="center">
 <tr>
 <td>
 
-Though I consider **Linux** as a better alternative, more so these days, here is an introduction to my method of configuring the Windows operating system without all of the  **bloat** and **annoying features** whilst trying to keep it **stable** and **functional** in all scenarios.
+An introduction to my methods of configuring the Windows operating system without all of the  **bloat** and **annoying features** whilst trying to keep it **stable** and **functional** in all scenarios.
 
 The chosen options should be up to everyone's preference and according to the computer's configuration.
 
@@ -43,6 +43,8 @@ Something like KDE's <a href="https://kde.org/plasma-desktop/">**Plasma**</a> wo
 My personal **preference** based on experience for a Linux build (known as distribution) is <a href="https://get.opensuse.org/">openSUSE Tumbleweed</a>. It is **rock-stable** and very intuitive on its own.
 
 Also, I can vouch for <a href="https://fedoraproject.org/spins/kde/">Fedora</a> too. Other testable *different* variants could be: <a href="https://endeavouros.com/">EndeavourOS</a>, which is a more complex (core) and it is community based; <a href="https://pop.system76.com/">Pop!_OS</a>, distinct and elegant interface; <a href="https://linuxmint.com/">Linux Mint</a>, which is not-so-complex feature wise but very stable.
+
+Finally, though I consider **Linux** as a better alternative, more so these days, I won't enforce it, so let's go ahead with the steps.
 
 ### Getting Windows
 
