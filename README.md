@@ -34,7 +34,7 @@ The chosen options should be up to everyone's preference and according to the co
 Something like KDE's <a href="https://kde.org/plasma-desktop/">**Plasma**</a> would be miles ahead of <i>Windows</i>, and more so as time goes by. The latest versions of Windows are **buggy**, very **cumbersome**, full of **bloat**, and forcefully **dumbed down**. By comparison, these **Linux** interfaces are getting **better and better**, with increasingly new features and fixes. It is also worth noting that it is supported by more communities, including **Valve** with their <i>Steam Deck</i>. On apps, compatibility wise, it is almost 1:1 with <i>Windows</i> via Wine and Proton, whereas on older ones it it better. The **performance** could be even greater.
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/kde_plasma_6.png" width="30%" height="30%">
+<img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/kde_plasma_6.png" width="60%" height="60%">
 <br>
 <sub>KDE Plasma Desktop</sub>
 </p>
