@@ -1,4 +1,4 @@
-<h1 align="center">
+$<h1 align="center">
   <br>
   <a href="https://github.com/ArmynC/ArminC-Windows-Debloat/archive/refs/heads/main.zip"><img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/arminc_windows_debloat.svg" alt="Windows Debloat"></a>
 </h1>
@@ -14,13 +14,13 @@
   <a href="#license">License</a>
 </p>
 
- ## About
+## About
 
 <table>
 <tr>
 <td>
 
-**ArminC Windows Debloat** is an introduction to my method of  configuring the Windows operating system without all of the  **bloat** and **annoying features**  while keeping it  **stable** and **functional** in all scenarios.
+Though I consider **Linux** as a better alternative, more so these days, here is an introduction to my method of configuring the Windows operating system without all of the  **bloat** and **annoying features** whilst trying to keep it **stable** and **functional** in all scenarios.
 
 The chosen options should be up to everyone's preference and according to the computer's configuration.
 
@@ -29,6 +29,20 @@ The chosen options should be up to everyone's preference and according to the co
 </table>
 
 ---
+#### Personal recommendation note
+
+Something like KDE's <a href="https://kde.org/plasma-desktop/">**Plasma**</a> would be miles ahead of <i>Windows</i>, and more so as time goes by. The latest versions of Windows are **buggy**, very **cumbersome**, full of **bloat**, and forcefully **dumbed down**. By comparison, these **Linux** interfaces are getting **better and better**, with increasingly new features and fixes. It is also worth noting that it is supported by more communities, including **Valve** with their <i>Steam Deck</i>. On apps, compatibility wise, it is almost 1:1 with <i>Windows</i> via Wine and Proton, whereas on older ones it it better. The **performance** could be even greater.
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/kde_plasma_6.png" width="30%" height="30%">
+<br>
+<sub>KDE Plasma Desktop</sub>
+</p>
+
+
+My personal **preference** based on experience for a Linux build (known as distribution) is <a href="https://get.opensuse.org/">openSUSE Tumbleweed</a>. It is **rock-stable** and very intuitive on its own.
+
+Also, I can vouch for <a href="https://fedoraproject.org/spins/kde/">Fedora</a> too. Other testable *different* variants could be: <a href="https://endeavouros.com/">EndeavourOS</a>, which is a more complex (core) and it is community based; <a href="https://pop.system76.com/">Pop!_OS</a>, distinct and elegant interface; <a href="https://linuxmint.com/">Linux Mint</a>, which is not-so-complex feature wise but very stable.
 
 ### Getting Windows
 
@@ -113,7 +127,9 @@ Depending on the chosen settings, the application may ask if you want to **stop 
 
 ### Installing Windows
 
-During the boot, if desired, select <b><language> World</b> from the <i>TimeTime and Currency format</i>. This will proceed with the installation of the operating system without <b>third-party application links</b> in the Start menu. During the setup, configure the out-of-the-box experience (OOBE). In case you encounter the "Something went wrong" error while the wizard attempts to load the region settings, proceed by using the <b>Skip</b> button to bypass the error. Be aware, after installation, you may need to set the <b>Country or region</b> values in settings.
+During the boot, if desired, select an <a href="https://en.wikipedia.org/wiki/European_Economic_Area">EEA country</a> from the <i>Time and Currency format</i>. This will recognise the installation as a <a href="https://blogs.windows.com/windows-insider/2023/11/16/previewing-changes-in-windows-to-comply-with-the-digital-markets-act-in-the-european-economic-area/">Windows Digital Market Act</a> complied version, which shortly, it is a unbloated version. Also, <a href="https://github.com/rcmaehl/MSEdgeRedirect">MSEdgeRedirect</a> tool can be used for *already existing* installations, which changes them to **Europe Mode**. Another tool is <a href="https://github.com/thebookisclosed/ViVe">ViVe</a>.
+
+Alternatively, although not so effectively, select <b><language> World</b> from the <i>Time and Currency format</i>. This will proceed with the installation of the operating system without <b>third-party application links</b> in the Start menu. During the setup, configure the out-of-the-box experience (OOBE). In case you encounter the "Something went wrong" error while the wizard attempts to load the region settings, proceed by using the <b>Skip</b> button to bypass the error. Be aware, after installation, you may need to set the <b>Country or region</b> values in settings.
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/windows_boot_time_bloat.png" width="60%" height="60%">
@@ -132,16 +148,15 @@ Near the end of the installation, if you haven't downloaded a pre-built image wi
 If you are done with it, now you should prepare the operating system.
 
 ##### The browser
-The first thing on the list is to try to change the browser. **[Firefox](https://www.mozilla.org/en-US/firefox/new/ "Firefox")** is the most optimal variant, even for *extension capabilities*. About that, see my [uBlock Settings](https://github.com/ArmynC/ArminC-uBlock-Settings "uBlock Settings"). Some of the other good extensions are [Proton Pass](https://addons.mozilla.org/en-US/firefox/addon/proton-pass/ "ProtonPass")/[Bitwarden](https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/ "Bitwarden"), [Translate Web Pages](https://addons.mozilla.org/en-US/firefox/addon/traduzir-paginas-web/ "Translate Web Pages"), [Location Guard](https://addons.mozilla.org/en-US/firefox/addon/location-guard/ "Location Guard"), [FastForward](https://github.com/FastForwardTeam/FastForward "FastForward"). Some YouTube ones include [Return YouTube Dislikes](https://addons.mozilla.org/en-US/firefox/addon/return-youtube-dislikes/ "Return YouTube Dislikes"), [Thumbnail Rating Bar for YouTube](https://addons.mozilla.org/en-US/firefox/addon/youtube-thumbnail-rating-bar/ "Thumbnail Rating Bar for YouTube"), [YouTooltip](https://addons.mozilla.org/en-US/firefox/addon/youtooltip/ "YouTooltip"), [Watchmarker for YouTube](https://addons.mozilla.org/en-US/firefox/addon/watchmarker-for-youtube/ "Watchmarker for YoutTube"), [Better YouTube Shorts](https://addons.mozilla.org/en-US/firefox/addon/better-youtube-shorts/ "Better YouTube Shorts") ...
+The first thing on the list is to try and change the browser. **[Firefox](https://www.mozilla.org/en-US/firefox/new/ "Firefox")** is the most optimal variant, even for *extension capabilities*. About that, see my [uBlock Settings](https://github.com/ArmynC/ArminC-uBlock-Settings "uBlock Settings"). Check other extensions too.
 
 ##### Other apps
 Next, for all the other steps, you'll need a file archiver. [7-Zip](https://www.7-zip.org/ "7-Zip") is a good variant; it's even *open-source*.
 
-For peace of mind, it is a good habit to **install an antivirus**. Depending on your Windows image, the default one, **Defender**, may be removed, disabled, or even working. For some, it is good enough, but I prefer to get [Kaspersky Security Cloud (Free)](https://www.kaspersky.com/free-antivirus "Kaspersky Security Cloud (Free)") or even [BitDefender (Free)](https://www.bitdefender.com/solutions/free.html). Kaspersky has almost every protection module of its premium counterpart, and it is smart enough to **disable itself when resources are needed**, for example, in gaming.
-
+For peace of mind, it is a good habit to **install an antivirus**. Depending on your Windows image, the default one, **Defender**, may be removed, disabled, or not working at all. For some, it is good enough, but I prefer to get [Kaspersky Security Cloud (Free)](https://www.kaspersky.com/free-antivirus "Kaspersky Security Cloud (Free)") or even [BitDefender (Free)](https://www.bitdefender.com/solutions/free.html). Kaspersky has almost nearly protection module of its premium counterpart, and it is intelligent enough to **disable itself when resources are required**, such as during gaming.
 
 ##### Updates
-Now, **check all available updates and drivers**, install them, and restart the computer. **Make sure** there is **no** update remaining. It is **not advisable to disable** and avoid them.
+Now, **check all available updates and drivers**, install them, and restart the computer. **Ensure** there are **no** remaining updates. It is **not advisable to disable** or avoid them.
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/update_check.png" width="50%" height="50%">
@@ -154,16 +169,16 @@ Then, if desired, do the same for **Windows Store**, and only after that, **disa
 </p>
 
 ##### Drivers
-The main (e.g., graphical) drivers **shouldn't be installed through Windows Updates**, so it's recommended to reinstall them through official means. To uninstall them, use [Display Driver Uninstaller](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html "Display Driver Uninstaller"), where you should **check all "remove"** specific options and also very important, **check the Windows Update prevent download option**. Uninstall every component, restart, and find the latest official installers ([AMD](https://www.amd.com/en/support)/[NVIDIA](https://www.nvidia.com/download/index.aspx)/[INTEL](https://www.intel.com/content/www/us/en/download-center/home.html)).
+The main (e.g. graphical) drivers **shouldn't be installed through Windows Updates**, so it's recommended to reinstall them through official means. To uninstall them, use [Display Driver Uninstaller](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html "Display Driver Uninstaller"), where you should **check all "remove"** specific options, and also very importantly, **check the Windows Update prevent download option**. Uninstall every component, restart, and find the latest official installers ([AMD](https://www.amd.com/en/support)/[NVIDIA](https://www.nvidia.com/download/index.aspx)/[INTEL](https://www.intel.com/content/www/us/en/download-center/home.html)).
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/ddu.png" width="50%" height="50%">
 </p>
 
-If your computer has a compatible NVIDIA GPU, you could try [NVCleanstall](https://www.techpowerup.com/download/techpowerup-nvcleanstall/), which is a tool for more **customizable capabilities**, **bloat-free** graphical drivers.
+If your computer has a compatible NVIDIA GPU, you could try [NVCleanstall](https://www.techpowerup.com/download/techpowerup-nvcleanstall/), which is a tool for more **customisable capabilities**, **bloat-free** graphical drivers.
 
 <ol type="i">
-<li>Let it <b>auto-detect</b> the recommended drivers. You should-double check.</li>
+<li>Let it <b>auto-detect</b> the recommended drivers. You should double-check.</li>
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/nvcleanstall_auto_detect.png" width="40%" height="40%">
@@ -175,7 +190,7 @@ If your computer has a compatible NVIDIA GPU, you could try [NVCleanstall](https
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/nvcleanstall_components.png" width="40%" height="40%">
 </p>
     
-<li>Then, for the tweaks, set the <b>preferred</b> ones. You could <b>disable the telemetry</b>, <b>disable custom type of install</b> at all (make it faster), <b>clean the older driver traces</b> (not required if uninstalled  through DDU), <b>add support for custom/older hardware</b>, <b>enable the DLSS version indicator</b>, <b>disable MPO</b> (which has to do with a technique that allows different user interfaces to be displayed on the screen at the same time and appear as if they are layered on top of each other) - it is usable for stable windowed resolution apps, and so on; it's useful but somewhat buggy in older versions, newer drivers should do it just fine. If something is wrong, e.g., there are crashes or slower experiences, this could be a reason, and if so, try to disable it. You can disable <b>Ansel</b> too, which is a in-game screenshot tool. 
+<li>Then, for the tweaks, set the <b>preferred</b> ones. You could <b>disable the telemetry</b>, <b>disable custom type of install</b> altogether (make it faster), <b>clean the older driver traces</b> (not required if uninstalled  through DDU), <b>add support for custom/older hardware</b>, <b>enable the DLSS version indicator</b>, <b>disable MPO</b> (which has to do with a technique that allows different user interfaces to be displayed on the screen at the same time and appear as if they are layered on top of each other) - it is usable for stable windowed resolution apps, and so on. It's useful but somewhat buggy in older versions, newer drivers should do it just fine. If something is wrong, e.g., there are crashes or slower experiences, this could be a reason, and if so, try to disable it. You can disable <b>Ansel</b> too, which is a in-game screenshot tool. 
     
 There are also some <b>advanced settings</b> that could break or mess with the drivers, and some of them even need repackaging and a new signature (incompatible with some anti-cheats). It is able to <b>disable some in-driver telemetry</b>, <b>disable process containers</b> (see task manager), <b>disable the buggy audio timer</b> (not useful if there is no HD Audio component), <b>enable MSI</b> (it allows computer components, be it a GPU, to directly send interrupt messages to the CPU, bypassing the PIC, which improves efficiency and reduces latency) - <i>older NVIDIA GPUs didn't have this feature enabled by default</i>. The newest models available probably have it enabled (manual check is required). Also, it could <b>disable HDCP</b> (which is a digital copy protection module - some apps and streams will not allow their usage without this one), <b>enable custom patch for nvenc video encoding</b> (in day-to-day usage, the patch is beneficial for users who frequently work with video encoding tasks or streamers who need to encode multiple video streams at the same time).</li>
 
@@ -183,12 +198,12 @@ There are also some <b>advanced settings</b> that could break or mess with the d
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/nvcleanstall_tweaks.png" width="40%" height="40%">
 </p>
     
-<li>When the <b>install is done</b>, there are some settings to make.
+<li>When the <b>installation is complete</b>, there are some settings to adjust.
 
-The main goal is to allow applications to run their <i>own settings</i> and not be forced. Techniques directly implemented by drivers may sometimes induce instability. In general, only something that can be externally enabled should be used. Any additional settings (e.g., Low Latency Mode) should be done <b>on a per-application basis</b> (in 3D Settings > Program Settings).
+The primary objective is to enable applications to use their <i>own settings</i> and not be obligated. Techniques established by drivers can occasionally cause instability. Generally, only something that can be externally enabled should be utilized. Any extra  settings (such as Low Latency Mode) should be tailored for each application <b>on a per-application basis</b> (in 3D Settings > Program Settings).
 </li>
     
-So, firstly, activate <b>Use the advanced 3D image settings</b> and then go to <i>Global Settings</i>.
+Therefore, first, enable <b>Use advanced 3D image settings</b> and then proceed to <i>Global Settings</i>.
     
     
 
@@ -198,13 +213,13 @@ So, firstly, activate <b>Use the advanced 3D image settings</b> and then go to <
 | Ambient Occlusion | OFF | Adds subtle shadows and shading to the areas where objects or surfaces meet and to areas that are not directly lit. Better set up directly by the application. Can be used for games that are too old to implement this feature by themselves. |
 | Anisotropic filtering | Application-controlled | Improves the quality of textures (enhances their smoothness to make them appear sharper) on surfaces that are viewed at an angle. Noticeable on textures that are seen at a steep angle, such as walls or floors. Without it, textures can appear blurry and pixelated. Sometimes it is relevant to enforce high texture filtering globally (not in-game) due to potential quality issues with individual developer solutions. Also, it can be used if the game lacks a native "Anisotropic Filtering" option, has a limited anisotropic option (up to 4x AF), and supports only up to "Trilinear Filtering". |
 | Antialiasing - FXAA | OFF | It smooths the jagged edges (through blurring) and flickering with less of a performance impact than other antialiasing settings. Doesn't make graphics look as smooth as other traditional methods like MSAA. May spoil the look of more text-based games. |
-| Antialiasing - Gamma correction | OFF | Is a method to adjust brightness data for displays so that shown content appears more natural. Displays are not linear, so gamma correction makes sure the brightness levels match the eye's perception. This is a feature that mostly alters the image rather than enhancing it. |
+| Antialiasing - Gamma correction | OFF | Is a method to adjust brightness data for displays so that shown content appears more natural. Displays are not linear, so gamma correction ensures that the brightness levels match the eye's perception. This is a feature that mostly alters the image rather than enhancing it. |
 | Antialiasing - Mode | Application-controlled | It determines how antialiasing is applied to games. Enhancing the application setting may improve the image quality of the game. It is recommended to let the game automatically select the most suitable antialiasing method based on your graphics card and the game's graphics settings. Otherwise, any custom settings may break or alter the graphics. |
 | Antialiasing - Transparency | OFF | Can improve the appearance of transparent objects, such as glass and water, by making them appear smoother and less jagged. Requires MSAA in order to work. |
 | Background Application Max Frame Rate | 30 | Controls the maximum frame rate that games and other applications can run at when they are not in focus. By limiting the frame rate, you can save power and improve the performance of your computer. |
 | DSR - Factors | 2.25 (DL Scaling) | The feature allows users to render games at a resolution higher than their monitor's native resolution and then scale down the image to fit their monitor's resolution. Can lead to enhanced sharpness and more detailed visuals. DSR factors serve as multipliers that users can apply to increase their game's resolution. For instance, if a monitor's native resolution is 1080p, employing a DSR factor of 2x would enable rendering games at a resolution of 2160p. |
 | DSR - Smoothness | 33% | It adjusts the sharpness or smoothness of the image, especially if there are blurry spots or jagged edges on the image. Higher values may induce a lot of blur in the background. |
-| Low Latency Mode | OFF (set per individual game) | The technology reduces the delay between a user's actions in a game and the corresponding reactions on the screen. This is achieved by minimizing the number of frames queued up in the graphics pipeline. As a result, the responsiveness of the games is notably improved, particularly in competitive multiplayer. When a game supports the Reflex Low Latency mode, the preference is to utilize that mode instead of the Ultra Low Latency mode in the driver. Nonetheless, when both modes are enabled, the Reflex Low Latency mode will be given higher priority automatically for the user. On value limits the number of queued frames to 1, which can reduce latency but may also lead to stuttering. Ultra minimizes the number of queued frames even further, which can reduce latency even more but may also lead to more stuttering. | 
+| Low Latency Mode | OFF (set per individual game) | The technology reduces the delay between a user's actions in a game and the corresponding reactions on the screen. This is achieved by minimising the number of frames queued up in the graphics pipeline. As a result, the responsiveness of the games is notably improved, particularly in competitive multiplayer. When a game supports the Reflex Low Latency mode, the preference is to utilise that mode instead of the Ultra Low Latency mode in the driver. Nonetheless, when both modes are enabled, the Reflex Low Latency mode will be given higher priority automatically for the user. On value limits the number of queued frames to 1, which can reduce latency but may also lead to stuttering. Ultra minimises the number of queued frames even further, which can reduce latency even more but may also lead to more stuttering. | 
 | Max Frame Rate | OFF | Limit the maximum frame rate for a game or application. Can be useful for power savings, reduced input lag, and preserving the Variable Refresh Rate range. Better used by in-game settings. |    
 | Multi-Frame Sampled AA (MFAA) | OFF (sometimes can be set per individual game) | An anti-aliasing technique developed by NVIDIA that improves upon the quality of traditional multisample anti-aliasing (MSAA) while reducing the performance impact. It does this by using a technique called temporal supersampling. MFAA recognizes that the averaging done by MSAA can be done over time by changing sample positions in each frame and applying a filter. This allows MFAA to provide image quality similar to 2x MSAA with almost no impact on performance. The ultimate objective is to provide comparable antialiasing such that MSAA 2x + MFAA ideally achieves MSAA 4x quality at a similar performance cost to MSAA 2x. As a drawback, this function can possibly disable D3D11 Driver Command Lists, which can hinder multi-threaded rendering, resulting in decreased performance, especially when CPU-limited. Also, MFAA exhibits suboptimal performance when the FPS is already low, as it can lead to motion smearing and blurring issues. |
 | OpenGL GDI compatibility | Auto | The way to render OpenGL applications. Prefer Compatible OpenGL prioritizes battery life, while Prefer Optimized OpenGL prioritizes performance. Beneficial for laptops and notebook PCs, as it enables users to choose between performance and power optimizations for OpenGL windows. Selecting either option may conflict with applications utilizing both OpenGL and GDI rendering. For laptop users, it is recommended to set it to Auto and allow the driver to determine the appropriate behavior. |   
@@ -223,7 +238,7 @@ So, firstly, activate <b>Use the advanced 3D image settings</b> and then go to <
 
 <li>After everything is set, there is another thing to do. Toggle <b>RTX Video Super Resolution</b>, which is a technology that uses AI to upscale lower resolution video to near-native quality. 
 
-VSR works by using the <i>Tensor Cores</i> to analyze each frame of the video and then reconstruct it at a higher resolution. This process is done in real-time, so there is no need to pre-render the video at a higher resolution. Some disadvantages of VSR include limited support in video players, potential compatibility issues with certain videos, and the possibility of introducing artifacts, especially during fast-moving scenes.</li>
+VSR works by using the <i>Tensor Cores</i> to analyze each frame of the video and then reconstruct it at a higher resolution. This process is done in real-time, so there is no need to pre-render the video at a higher resolution. Some disadvantages of VSR include limited support in video players, potential compatibility issues with certain videos, and the possibility of introducing artefacts, especially during fast-moving scenes.</li>
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/rtx_vsr.png" width="40%" height="40%">
@@ -263,7 +278,7 @@ The first part of **debloating** is through [O&O Shutup](https://www.oo-software
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/oo_shutup.png" width="50%" height="50%">
 </p>
 
-The second part is through [SohpiApp](https://github.com/Sophia-Community/SophiApp "SohpiApp"). It has some more in-depth settings. You can **disable some services** that are not needed and even **uninstall UWP apps**. Try to uninstall any app not needed (e.g., help, maps), but **avoid uninstalling the complex ones, linked to the operating system**, such as Edge, Cortana, or Xbox, if not needed. These days, Windows is so interconnected that it will be difficult or almost impossible to use it in this way without any errors at all.
+The second part via through [SohpiApp](https://github.com/Sophia-Community/SophiApp "SohpiApp"). It has more comprehensive settings. You can **deactivate some unnecessary services** that are not needed and even **remove UWP apps**. Try uninstalling unnecessary apps (e.g. help, maps), but **refrain from the complex ones associated with the operating system**, such as Edge, Cortana, or Xbox, if not needed. Nowadays, Windows is so integrated that it will be challenging or almost impossible to use it in this way without encountering any errors.
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/sophiapp.png" width="50%" height="50%">
@@ -273,42 +288,71 @@ The second part is through [SohpiApp](https://github.com/Sophia-Community/SophiA
 
 These apps are optional, or some of them may be included in the operating system.
 
-##### Runtime
-- [Microsoft Visual C++ Redistributable](https://github.com/abbodi1406/vcredist "Microsoft Visual C++ Redistributable")
-- [Microsoft DirectX Legacy](https://www.microsoft.com/en-us/download/details.aspx?id=8109 "Microsoft DirectX Legacy") 
-- [.NET Framework 3.5](https://www.microsoft.com/en-us/download/details.aspx?id=21 ".NET Framework 3.5")
-- [.NET Framework 4.8](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net48 ".NET Framework 4.8")
-- [.NET 7.0](https://dotnet.microsoft.com/en-us/download/dotnet/7.0 ".NET 7.0")
-- [Java](https://www.java.com/download/ie_manual.jsp "Java")
+##### OS Runtime
+- [Microsoft Visual C++ Redistributable](https://github.com/abbodi1406/vcredist)
+- [Microsoft DirectX Legacy](https://www.microsoft.com/en-us/download/details.aspx?id=8109) 
+- [.NET Framework 3.5](https://www.microsoft.com/en-us/download/details.aspx?id=21)
+- [.NET Framework 4.8](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net48)
+- [.NET 7.0](https://dotnet.microsoft.com/en-us/download/dotnet/7.0)
+- [Java](https://www.java.com/download/ie_manual.jsp)
 
 ##### Tools
-- [Revo Uninstaller](https://www.revouninstaller.com/ "Revo Uninstaller") or [BCUninstaller](https://github.com/Klocman/Bulk-Crap-Uninstaller "BCUninstaller")
-- [IObit Unlocker](https://www.iobit.com/en/iobit-unlocker.php "IObit Unlocker")
-- [qBittorent](https://www.qbittorrent.org/ "qBittorent")
-- [WinCDEmu](https://wincdemu.sysprogs.org/ "WinCDEmu")
-- [Parsec](https://parsec.app/ "Parsec")
-- [WingetUI](https://github.com/martinet101/WingetUI "WingetUI")
-- [Dimmer](https://www.nelsonpires.com/software/dimmer "Dimmer")
+- [Revo Uninstaller](https://www.revouninstaller.com/) or [BCUninstaller](https://github.com/Klocman/Bulk-Crap-Uninstaller)
+- [IObit Unlocker](https://www.iobit.com/en/iobit-unlocker.php)
+- [qBittorent](https://www.qbittorrent.org/)
+- [WinCDEmu](https://wincdemu.sysprogs.org/)
+- [Parsec](https://parsec.app/)
+- [WingetUI](https://github.com/martinet101/WingetUI)
+- [Dimmer](https://www.nelsonpires.com/software/dimmer)
 
 ##### Media
 - [Spotify-X](https://github.com/amd64fox/SpotX "Spotify-X")
 - [Stremio](https://www.stremio.com/ "Stremio")
-- [Bluetooth Audio Receiver](https://apps.microsoft.com/store/detail/bluetooth-audio-receiver/9N9WCLWDQS5J?hl=en-us&gl=us "Bluetooth Audio Receiver")
+- [Bluetooth Audio Receiver](https://apps.microsoft.com/store/detail/bluetooth-audio-receiver/9N9WCLWDQS5J?hl=en-us&gl=us)
+- [mpv media player](https://mpv.io/) and [mpv menu plugin](https://github.com/tsl0922/mpv-menu-plugin/)
 
 ##### Development
-- [Visual Studio Code](https://code.visualstudio.com/ "Visual Studio Code")
-- [Visual Studio](https://visualstudio.microsoft.com/ "Visual Studio")
-- [GitHub](https://desktop.github.com/ "GitHub")
-- [Office](https://forums.mydigitallife.net/threads/office-r-tool-the-new-era.84450/ "Office")
-- [Beyond Compare](https://www.scootersoftware.com/download.php "Beyond Compare")
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [Visual Studio](https://visualstudio.microsoft.com/)
+- [GitHub](https://desktop.github.com/)
+- [Office](https://forums.mydigitallife.net/threads/office-r-tool-the-new-era.84450/)
+- [Beyond Compare](https://www.scootersoftware.com/download.php)
+- [Craft](https://www.craft.do/)
+- [Excalidraw](https://excalidraw.com/)
 
 ##### Communication
-- [Discord](https://discord.com/ "Discord")
-- [Teams](https://www.microsoft.com/en-ww/microsoft-teams/download-app "Teams")
+- [Discord](https://discord.com/)
+- [Teams](https://www.microsoft.com/en-ww/microsoft-teams/download-app)
 
 ##### Games
-- [Steam](https://store.steampowered.com/about/ "Steam")
-- [Heroic Launcher](https://heroicgameslauncher.com/ "Heroic Launcher")
+- [Steam](https://store.steampowered.com/about/)
+- [Heroic Launcher](https://heroicgameslauncher.com/)
+- [Flashpoint](https://flashpointarchive.org/)
+- [steamrip](https://steamrip.com/)
+
+##### Browser extensions
+
+- [Bitwarden](https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/) or [Proton Pass](https://addons.mozilla.org/en-US/firefox/addon/proton-pass/)
+- [Translate Web Pages](https://addons.mozilla.org/en-US/firefox/addon/traduzir-paginas-web/)
+- [Location Guard](https://addons.mozilla.org/en-US/firefox/addon/location-guard/)
+- [FastForward](https://github.com/FastForwardTeam/FastForward)
+- [Dark Reader](https://addons.mozilla.org/en-US/firefox/addon/darkreader/)
+- [Song Identifier](https://addons.mozilla.org/en-US/firefox/addon/song-identifier/)
+- [Awesome Screenshot](https://addons.mozilla.org/en-US/firefox/addon/screenshot-capture-annotate/)
+- [ViolentMonkey](https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/)
+- [Video DownloadHelper](https://addons.mozilla.org/en-US/firefox/addon/video-downloadhelper/)
+- [Absolute Enable Right Click](https://addons.mozilla.org/en-US/firefox/addon/absolute-enable-right-click/)
+- [Save pages - SingleFile](https://addons.mozilla.org/en-US/firefox/addon/single-file/)
+- [Download GitHub Directory](https://addons.mozilla.org/en-US/firefox/addon/download-github-directory/)
+
+
+###### Youtube:
+- [Return YouTube Dislikes](https://addons.mozilla.org/en-US/firefox/addon/return-youtube-dislikes/)
+- [Thumbnail Rating Bar for YouTube](https://addons.mozilla.org/en-US/firefox/addon/youtube-thumbnail-rating-bar/)
+- [YouTooltip](https://addons.mozilla.org/en-US/firefox/addon/youtooltip/)
+- [Watchmarker for YouTube](https://addons.mozilla.org/en-US/firefox/addon/watchmarker-for-youtube/)
+- [Better YouTube Shorts](https://addons.mozilla.org/en-US/firefox/addon/better-youtube-shorts/)
+- [Youtube Digest Summary](https://addons.mozilla.org/en-US/firefox/addon/youtube-chatgpt-summarization/)
 
 ## Support
 
