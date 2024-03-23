@@ -42,7 +42,7 @@ Something like KDE's <a href="https://kde.org/plasma-desktop/">**Plasma**</a> wo
 Some Linux variants, namely distributions, are as follows: <a href="https://linuxmint.com/">Linux Mint</a>, by default isn't that complex or shiny but it is very stable and user friendly, plug and play type; <a href="https://pop.system76.com/">Pop!_OS</a>, it is distinct, elegant and it is an easy experience, yet it is cautious about adopting zero-day updates; <a href="https://fedoraproject.org/spins/kde/">Fedora</a>, professionally backed with a flawless experience; <a href="https://get.opensuse.org/">openSUSE Tumbleweed</a>, is rock-stable and very intuitive on its own, has a lot of UI tools but requires a bit of experience in thinkering it (enabling non open-source repositories); <a href="https://endeavouros.com/">EndeavourOS</a>, community based, snappy, made on top of a complex core (Arch), has only some elementary UI tools such as installer - mostly terminal centric;
 
 > [!NOTE]  
-> Running Linux distros should be fair simple but you should have at least a minimal experience in using some tutorials, because sometimes the Terminal may help you. It may be used at least once in the entire OS lifetime.
+> Running Linux distros might be fair simple but you should have at least a minimal experience in using some tutorials, because from time to time, the Terminal may help you. It is likely to be used at least once in the entire OS lifetime.
 
 Finally, though I might consider **Linux** as a better alternative, I won't enforce it, so let's go ahead with the guide.
 
