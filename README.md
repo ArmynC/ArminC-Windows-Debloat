@@ -45,6 +45,7 @@ Some Linux variants, namely distributions, are as follows: <a href="https://linu
 > Running Linux distros should be fair simple but you should have a minimal experience in using some tutorials, because sometimes the Terminal commands may help you. These could be used at least once in the entire OS lifetime.
 
 Finally, though I might consider **Linux** as a better alternative, I won't enforce it, so let's go ahead with the guide.
+
 ---
 
 ### Getting Windows
