@@ -31,7 +31,7 @@ The chosen options should be up to everyone's preference and according to the co
 ---
 #### Personal recommendation note
 
-Something like KDE's <a href="https://kde.org/plasma-desktop/">**Plasma**</a> would be miles ahead of <i>Windows</i> in terms of customization, and more so as time goes by. The latest versions of Windows are **buggy**, very **cumbersome**, full of **bloat**, and forcefully **dumbed down**. By comparison, these **Linux** interfaces are getting **better and better**, with increasingly new features, fixes and stabilty. It is also worth noting that it is supported by more communities, including **Valve** with their <i>Steam Deck</i>. On apps, compatibility wise, they could run 1:1 as with <i>Windows</i> via Wine and Proton (must be activated), whereas on older ones it it better. The **performance** could be even greater.
+Something like KDE's <a href="https://kde.org/plasma-desktop/">**Plasma**</a> would be miles ahead of <i>Windows</i> in terms of customization, and more so as time goes by. The latest versions of Windows are sometimes **glitchy**, very **cumbersome**, full of **bloat**, and forcefully **dumbed down**. By comparison, these **Linux** interfaces are getting **better and better**, with increasingly new features, fixes and stabilty. It is also worth noting that Linux is supported by more communities and corporations including **Valve** with their <i>Steam Deck</i>. About apps, compatibility wise, they could run 1:1 as <i>Windows</i> via something called Wine and Proton (may require manually activation), whereas the older apps that won't work on Windows could run here.
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/kde_plasma_6.png" width="60%" height="60%">
@@ -39,12 +39,13 @@ Something like KDE's <a href="https://kde.org/plasma-desktop/">**Plasma**</a> wo
 <sub>KDE Plasma Desktop</sub>
 </p>
 
-Some variants are as follows: <a href="https://linuxmint.com/">Linux Mint</a>, by default isn't that complex or shiny but it is very stable and user friendly, plug and play; <a href="https://pop.system76.com/">Pop!_OS</a>, it is distinct, elegant and has easy plug and play experience, yet it is cautious about adopting newest updates; <a href="https://fedoraproject.org/spins/kde/">Fedora</a>, professionally backed with a flawless experience; <a href="https://get.opensuse.org/">openSUSE Tumbleweed</a>, mostly my choice, it is rock-stable and very intuitive on its own but requires a little experience for thinkering it (has UI tools); <a href="https://endeavouros.com/">EndeavourOS</a>, community based, made on top of a complex core, has only some elementary UI tools such as installer - terminal centric;
+Some Linux variants, namely distributions, are as follows: <a href="https://linuxmint.com/">Linux Mint</a>, by default isn't that complex or shiny but it is very stable and user friendly, plug and play type; <a href="https://pop.system76.com/">Pop!_OS</a>, it is distinct, elegant and it is an easy experience, yet it is cautious about adopting zero-day updates; <a href="https://fedoraproject.org/spins/kde/">Fedora</a>, professionally backed with a flawless experience; <a href="https://get.opensuse.org/">openSUSE Tumbleweed</a>, is rock-stable and very intuitive on its own, has a lot of UI tools but requires a bit of experience in thinkering it (enabling non open-source repositories); <a href="https://endeavouros.com/">EndeavourOS</a>, community based, snappy, made on top of a complex core (Arch), has only some elementary UI tools such as installer - mostly terminal centric;
 
 > [!NOTE]  
-> Running Linux distros should be fair simple but you should have a minimal experience in using some tutorials, because sometimes the Terminal commands may help you. These could be used least once in the entire OS lifetime.
+> Running Linux distros should be fair simple but you should have a minimal experience in using some tutorials, because sometimes the Terminal commands may help you. These could be used at least once in the entire OS lifetime.
 
-Finally, though I consider **Linux** as a better alternative, more so these days, I won't enforce it, so let's go ahead with the steps.
+Finally, though I might consider **Linux** as a better alternative, I won't enforce it, so let's go ahead with the guide.
+---
 
 ### Getting Windows
 
