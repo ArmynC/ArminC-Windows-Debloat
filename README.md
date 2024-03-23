@@ -31,7 +31,7 @@ The chosen options should be up to everyone's preference and according to the co
 ---
 #### Personal recommendation note
 
-Something like KDE's <a href="https://kde.org/plasma-desktop/">**Plasma**</a> would be miles ahead of <i>Windows</i> in terms of customization, and more so as time goes by. The latest versions of Windows are sometimes **glitchy**, very **cumbersome**, full of **bloat**, and forcefully **dumbed down**. By comparison, these **Linux** interfaces are getting **better and better**, with increasingly new features, fixes and stabilty. It is also worth noting that Linux is supported by more communities and corporations including **Valve** with their <i>Steam Deck</i>. About apps, compatibility wise, they could run 1:1 as <i>Windows</i> via something called Wine and Proton (may require manually activation), whereas the older apps that won't work on Windows could run here.
+Something like KDE's <a href="https://kde.org/plasma-desktop/">**Plasma**</a> would be miles ahead of <i>Windows</i> in terms of customization, and more so as time goes by. The latest versions of Windows are sometimes **glitchy**, very **cumbersome**, full of **bloat**, and forcefully **dumbed down**. By comparison, these **Linux** interfaces are getting **better and better**, with increasingly new features, fixes and stabilty. It is also worth noting that Linux is supported by more communities and corporations including **Valve** with their <i>Steam Deck</i>. Apps wise, the compatibility is on par with <i>Windows</i> via something called Wine and Proton (may require manually activation). It's also worth noting that if there's an older application that doesn't work on Windows, it will mostly work here.
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/kde_plasma_6.png" width="60%" height="60%">
@@ -42,7 +42,7 @@ Something like KDE's <a href="https://kde.org/plasma-desktop/">**Plasma**</a> wo
 Some Linux variants, namely distributions, are as follows: <a href="https://linuxmint.com/">Linux Mint</a>, by default isn't that complex or shiny but it is very stable and user friendly, plug and play type; <a href="https://pop.system76.com/">Pop!_OS</a>, it is distinct, elegant and it is an easy experience, yet it is cautious about adopting zero-day updates; <a href="https://fedoraproject.org/spins/kde/">Fedora</a>, professionally backed with a flawless experience; <a href="https://get.opensuse.org/">openSUSE Tumbleweed</a>, is rock-stable and very intuitive on its own, has a lot of UI tools but requires a bit of experience in thinkering it (enabling non open-source repositories); <a href="https://endeavouros.com/">EndeavourOS</a>, community based, snappy, made on top of a complex core (Arch), has only some elementary UI tools such as installer - mostly terminal centric;
 
 > [!NOTE]  
-> Running Linux distros should be fair simple but you should have a minimal experience in using some tutorials, because sometimes the Terminal commands may help you. These could be used at least once in the entire OS lifetime.
+> Running Linux distros should be fair simple but you should have at least a minimal experience in using some tutorials, because sometimes the Terminal may help you. It may be used at least once in the entire OS lifetime.
 
 Finally, though I might consider **Linux** as a better alternative, I won't enforce it, so let's go ahead with the guide.
 
