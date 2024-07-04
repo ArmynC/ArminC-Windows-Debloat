@@ -352,12 +352,16 @@ These apps are optional, or some of them may be included in the operating system
 
 
 ###### Youtube:
+- [Enhancer for YouTube](https://addons.mozilla.org/en-US/firefox/addon/enhancer-for-youtube/) or [YouTube Redux](https://addons.mozilla.org/en-US/firefox/addon/youtube-redux/)
 - [Return YouTube Dislikes](https://addons.mozilla.org/en-US/firefox/addon/return-youtube-dislikes/)
 - [Thumbnail Rating Bar for YouTube](https://addons.mozilla.org/en-US/firefox/addon/youtube-thumbnail-rating-bar/)
 - [YouTooltip](https://addons.mozilla.org/en-US/firefox/addon/youtooltip/)
 - [Watchmarker for YouTube](https://addons.mozilla.org/en-US/firefox/addon/watchmarker-for-youtube/)
 - [Better YouTube Shorts](https://addons.mozilla.org/en-US/firefox/addon/better-youtube-shorts/)
 - [Youtube Digest Summary](https://addons.mozilla.org/en-US/firefox/addon/youtube-chatgpt-summarization/)
+
+###### Twitch:
+- [Twitch VOD Viewer](https://addons.mozilla.org/en-US/firefox/addon/andre-bradshaw/)
 
 ## Support
 
