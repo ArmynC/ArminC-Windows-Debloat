@@ -349,7 +349,13 @@ These apps are optional, or some of them may be included in the operating system
 - [Absolute Enable Right Click](https://addons.mozilla.org/en-US/firefox/addon/absolute-enable-right-click/)
 - [Save pages - SingleFile](https://addons.mozilla.org/en-US/firefox/addon/single-file/)
 - [Download GitHub Directory](https://addons.mozilla.org/en-US/firefox/addon/download-github-directory/)
-
+- [Twitch VOD Viewer](https://addons.mozilla.org/en-US/firefox/addon/andre-bradshaw/)
+- [Google Search Maps Button](https://addons.mozilla.org/en-US/firefox/addon/google-search-maps-button/)
+- [CanvasBlocker](https://addons.mozilla.org/en-US/firefox/addon/canvasblocker/)
+- [CleanURLs](https://addons.mozilla.org/en-US/firefox/addon/clearurls/)
+- [Stream Bypass](https://addons.mozilla.org/en-US/firefox/addon/stream-bypass/)
+- [WebDeveloper](https://addons.mozilla.org/en-US/firefox/addon/web-developer/)
+- [Bonjourr Startpage](https://addons.mozilla.org/en-US/firefox/addon/bonjourr-startpage/)
 
 ###### Youtube:
 - [Enhancer for YouTube](https://addons.mozilla.org/en-US/firefox/addon/enhancer-for-youtube/) or [YouTube Redux](https://addons.mozilla.org/en-US/firefox/addon/youtube-redux/)
@@ -359,9 +365,7 @@ These apps are optional, or some of them may be included in the operating system
 - [Watchmarker for YouTube](https://addons.mozilla.org/en-US/firefox/addon/watchmarker-for-youtube/)
 - [Better YouTube Shorts](https://addons.mozilla.org/en-US/firefox/addon/better-youtube-shorts/)
 - [Youtube Digest Summary](https://addons.mozilla.org/en-US/firefox/addon/youtube-chatgpt-summarization/)
-
-###### Twitch:
-- [Twitch VOD Viewer](https://addons.mozilla.org/en-US/firefox/addon/andre-bradshaw/)
+- [YouTube NonStop](https://addons.mozilla.org/en-US/firefox/addon/youtube-nonstop/)
 
 ## Support
 
