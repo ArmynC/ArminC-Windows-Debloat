@@ -285,7 +285,7 @@ The default Taskbar, Start Menu, Context Menu, and File Explorer experiences are
 Above presented [Winutil](https://github.com/ChrisTitusTech/winutil) has a tweak component too. So, it can and should be used to enhance the operating system. If it was used through MicroWin, some are already applied, such as Minimal (e.g. disabled consumerfeatures, telemetry, services). In this case, the user still has the to tweak it even more if desired.
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/winutil_tweak.png" width="50%" height="50%">
+<img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/winutil_tweaks.png" width="50%" height="50%">
 </p>
 
 If there was no tool used, the first part of **debloating** is going to be through [O&O Shutup](https://www.oo-software.com/en/shutup10 "O&O Shutup"). It can tweak most of the usual settings. [Here is my exported example configuration](https://github.com/ArmynC/ArminC-Windows-Debloat/blob/main/cfg/ooshutup10.cfg "Here is my exported configuration")... Disabling every feature can lead to compatibility errors.
