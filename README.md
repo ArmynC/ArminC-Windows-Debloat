@@ -31,7 +31,7 @@ The chosen options should be up to everyone's preference and according to the co
 ---
 #### Short note
 
-Something like KDE's <a href="https://kde.org/plasma-desktop/">**Plasma**</a> is an on par alternative to <i>Windows</i> in terms of customization, and more so as time goes by. The latest versions of Windows are sometimes very **cumbersome**, full of **bloat**, and forcefully **dumbed down**. By comparison, these **Linux** interfaces are getting **better and better**, with increasingly new features and fixes. It is also worth noting that Linux is supported by more communities and corporations including **Valve** with their <i>Steam Deck</i>. Apps wise, the compatibility mostly matches the one of <i>Windows</i> via tools called Wine (Windows calls translation) and Proton (Wine gaming focused). It's also worth noting that if there's an older application that doesn't work anymore on Windows, it will mostly work here.
+Linux got as on par alternative to <i>Windows</i> in terms of customization, and more so as time goes by. The latest versions of Windows are sometimes very **cumbersome**, full of **bloat**, and forcefully **dumbed down**. By comparison, these **Linux** interfaces (Cosmic, KDE, Gnome and so on) are getting **better and better**, with increasingly new features and fixes. It is also worth noting that Linux is supported by more communities and corporations including **Valve** with their <i>Steam Deck</i>. Apps wise, the compatibility mostly matches the one of <i>Windows</i> via tools called Wine (Windows calls translation) and Proton (Wine gaming focused). It's also worth noting that if there's an older application that doesn't work anymore on Windows, it will mostly work here.
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/kde_plasma_6.png" width="60%" height="60%">
@@ -55,7 +55,7 @@ First and foremost, you must obtain the **.iso** image file of Microsoft Windows
 <li><b>Unofficial</b> pre-built images:</li>
 
 <ol type="i">
-<li><a href="https://forum.rg-adguard.net/forums/windows-11.76/">Assembly</a> based on the original Windows Unified Update Platform, with <b>minimal modifications</b>, such as disabled system requirements check and account creation, integration of the most recent updates, SmartFix and Microsoft DaRT. (<b>Recommended</b>)</li>
+<li><a href="https://forum.rg-adguard.net/forums/windows-11.76/">Assembly</a> based on the original Windows Unified Update Platform, with <b>minimal modifications</b>, such as disabled system requirements check and account creation, integration of the most recent updates, SmartFix and Microsoft DaRT.</li>
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/rg_adguard.png" width="30%" height="30%">
@@ -63,7 +63,7 @@ First and foremost, you must obtain the **.iso** image file of Microsoft Windows
 <sub>rg adguard assembly</sub>
 </p>
 
-<li><a href="https://www.teamos.xyz/forums/windows-11-x64.159/">Multiple custom builds</a>, be they touched or untouched, including <b>modifications</b> such as disabled system requirements checks or even total reskins.</li>
+<li><a href="https://www.teamos.xyz/forums/windows-11-x64.159/">Multiple custom builds</a>, be they touched or untouched, including <b>modifications</b> such as disabled system requirements checks or even total reskins (<u>be careful</u>).</li>
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/teamos.png" width="30%" height="30%">
@@ -76,20 +76,28 @@ First and foremost, you must obtain the **.iso** image file of Microsoft Windows
 <li><b>Official</b> images:</li>
 
 <ol type="i">
+<li><a href="https://www.microsoft.com/en-us/software-download/windows11">Official Windows Installation</a> tool/iso for bootable USB or DVD.</li>
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/windows_official_iso.png" width="50%" height="50%">
+<br>
+<sub>Windows generated ISO</sub>
+</p>
+    
+<p>By using this, one can apply <a href="https://github.com/ChrisTitusTech/winutil">Windows Utility</a> debloat and enhance functionality which goes as MicroWin (<b>Recommended</b>).</p>
+    
+<p align="center">
+<img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/winutil_microwin.png" width="50%" height="50%">
+<br>
+<sub>Winutil MicroWin</sub>
+</p>
+    
 <li><a href="https://github.com/pbatard/Fido">Fido PowerShell</a> download script with automated access to the official Microsoft Windows retail server. There are <b>no modifications</b> at all.</li>
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/fido.png" width="30%" height="30%">
 <br>
 <sub>Fido</sub>
-</p>
-
-<li><a href="https://www.microsoft.com/en-us/software-download/windows11">Official Windows Installation Media</a> tool for bootable USB or DVD.</li>
-
-<p align="center">
-<img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/windows_installation_media.png" width="50%" height="50%">
-<br>
-<sub>Windows Installation Media tool</sub>
 </p>
 
 </ol>
@@ -99,7 +107,7 @@ First and foremost, you must obtain the **.iso** image file of Microsoft Windows
 If the **.iso** image file has been **completed**, now is the time to create a bootable flash drive. In order to do this, you'll need an utility. There are several ways:
 
 <ol type="i">
-<li><a href="https://www.ventoy.net/en/index.html">Ventoy</a> is a utility that creates a bootable USB, by <i>directly booting</i> the .iso file without the need for the USB to be formatted.</li>
+<li><a href="https://www.ventoy.net/en/index.html">Ventoy</a> is a utility that creates a bootable USB, by <i>directly booting</i> the .iso file without the need for the USB to be formatted. Very rarely it can be bugged.</li>
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/ventoy_bios.png" width="40%" height="40%">
@@ -153,9 +161,9 @@ If you are done with it, now you should prepare the operating system.
 The first thing on the list is to try and change the browser. **[Firefox](https://www.mozilla.org/en-US/firefox/new/ "Firefox")** is the most optimal variant, even for *extension capabilities*. About that, see my [uBlock Settings](https://github.com/ArmynC/ArminC-uBlock-Settings "uBlock Settings"). Check other extensions too.
 
 ##### Other apps
-Next, for all the other steps, you'll need a file archiver. [7-Zip](https://www.7-zip.org/ "7-Zip") is a good variant; it's even *open-source*.
+Next, for all the other steps, you'll need a file archiver. [7-Zip](https://www.7-zip.org/)/[NanaZip](https://github.com/M2Team/NanaZip) or even [PeaZip](https://peazip.github.io/) are along the best ones; these are even *open-source*.
 
-For peace of mind, it is a good habit to **install an antivirus**. Depending on your Windows image, the default one, **Defender**, may be removed, disabled, or not working at all. For some, it is good enough, but I prefer to get [Kaspersky Security Cloud (Free)](https://www.kaspersky.com/free-antivirus "Kaspersky Security Cloud (Free)") or even [BitDefender (Free)](https://www.bitdefender.com/solutions/free.html). Kaspersky has almost nearly protection module of its premium counterpart, and it is intelligent enough to **disable itself when resources are required**, such as during gaming.
+For peace of mind, it is a good habit to **install an antivirus**. Depending on your Windows image, the default one, **Defender** should be good enough. In other considerations, it may be removed, disabled, or not working at all. As options there are [Kaspersky Security Cloud (Free)](https://www.kaspersky.com/free-antivirus "Kaspersky Security Cloud (Free)") or even [BitDefender (Free)](https://www.bitdefender.com/solutions/free.html). Kaspersky has almost nearly protection module of its premium counterpart, and it is intelligent enough to **disable itself when resources are required**, such as during gaming.
 
 ##### Updates
 Now, **check all available updates and drivers**, install them, and restart the computer. **Ensure** there are **no** remaining updates. It is **not advisable to disable** or avoid them.
@@ -171,7 +179,7 @@ Then, if desired, do the same for **Windows Store**, and only after that, **disa
 </p>
 
 ##### Drivers
-The main (e.g. graphical) drivers **shouldn't be installed through Windows Updates**, so it's recommended to reinstall them through official means. To uninstall them, use [Display Driver Uninstaller](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html "Display Driver Uninstaller"), where you should **check all "remove"** specific options, and also very importantly, **check the Windows Update prevent download option**. Uninstall every component, restart, and find the latest official installers ([AMD](https://www.amd.com/en/support)/[NVIDIA](https://www.nvidia.com/download/index.aspx)/[INTEL](https://www.intel.com/content/www/us/en/download-center/home.html)).
+At times, the main (e.g. graphical) drivers **shouldn't be installed through Windows Updates**, so it's recommended to reinstall them through official means. To uninstall them, use [Display Driver Uninstaller](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html "Display Driver Uninstaller"), where you should **check all "remove"** specific options, and also very importantly, **check the Windows Update prevent download option**. Uninstall every component, restart, and find the latest official installers ([AMD](https://www.amd.com/en/support)/[NVIDIA](https://www.nvidia.com/download/index.aspx)/[INTEL](https://www.intel.com/content/www/us/en/download-center/home.html)).
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/ddu.png" width="50%" height="50%">
@@ -274,13 +282,19 @@ The default Taskbar, Start Menu, Context Menu, and File Explorer experiences are
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/startallback.png" width="50%" height="50%">
 </p>
 
-The first part of **debloating** is through [O&O Shutup](https://www.oo-software.com/en/shutup10 "O&O Shutup"). It can tweak most of the usual settings. [Here is my exported configuration](https://github.com/ArmynC/ArminC-Windows-Debloat/blob/main/cfg/ooshutup10.cfg "Here is my exported configuration")... I've tried to combine efficiency with stability. Disabling every feature can lead to compatibility errors.
+Above presented [Winutil](https://github.com/ChrisTitusTech/winutil) has a tweak component too. So, it can and should be used to enhance the operating system. If it was used through MicroWin, some are already applied, such as Minimal (e.g. disabled consumerfeatures, telemetry, services). In this case, the user still has the to tweak it even more if desired.
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/winutil_tweak.png" width="50%" height="50%">
+</p>
+
+If there was no tool used, the first part of **debloating** is going to be through [O&O Shutup](https://www.oo-software.com/en/shutup10 "O&O Shutup"). It can tweak most of the usual settings. [Here is my exported example configuration](https://github.com/ArmynC/ArminC-Windows-Debloat/blob/main/cfg/ooshutup10.cfg "Here is my exported configuration")... Disabling every feature can lead to compatibility errors.
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/oo_shutup.png" width="50%" height="50%">
 </p>
 
-The second part via through [SohpiApp](https://github.com/Sophia-Community/SophiApp "SohpiApp"). It has more comprehensive settings. You can **deactivate some unnecessary services** that are not needed and even **remove UWP apps**. Try uninstalling unnecessary apps (e.g. help, maps), but **refrain from the complex ones associated with the operating system**, such as Edge, Cortana, or Xbox, if not needed. Nowadays, Windows is so integrated that it will be challenging or almost impossible to use it in this way without encountering any errors.
+The second part via goes with [SohpiApp](https://github.com/Sophia-Community/SophiApp "SohpiApp"). It has more comprehensive settings. You can **deactivate some unnecessary services** that are not needed and even **remove UWP apps**. Uninstalling unnecessary apps (e.g. help, maps) should be fine, but **refrain from the complex ones associated with the operating system**, such as Edge, Cortana, or Xbox, if not needed. Nowadays, Windows is so integrated that it will be challenging or almost impossible to use it in this way without encountering any errors if not experienced or using last-day tweakers.
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/sophiapp.png" width="50%" height="50%">
@@ -293,9 +307,9 @@ These apps are optional, or some of them may be included in the operating system
 ##### OS Runtime
 - [Microsoft Visual C++ Redistributable](https://github.com/abbodi1406/vcredist)
 - [Microsoft DirectX Legacy](https://www.microsoft.com/en-us/download/details.aspx?id=8109)
-- [.NET Framework 3.5](https://www.microsoft.com/en-us/download/details.aspx?id=21)
-- [.NET Framework 4.8](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net48)
-- [.NET 7.0](https://dotnet.microsoft.com/en-us/download/dotnet/7.0)
+- [.NET Framework 3.5](https://learn.microsoft.com/en-us/dotnet/framework/install/dotnet-35-windows)
+- [.NET Framework 4.8.1](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net481)
+- [.NET Runtime](https://dotnet.microsoft.com/en-us/download/dotnet)
 - [Java](https://www.java.com/download/ie_manual.jsp)
 
 ##### Tools
@@ -306,12 +320,14 @@ These apps are optional, or some of them may be included in the operating system
 - [Parsec](https://parsec.app/)
 - [WingetUI](https://github.com/martinet101/WingetUI)
 - [Dimmer](https://www.nelsonpires.com/software/dimmer)
+- [!cracksurl](https://cracksurl.com/)
 
 ##### Media
 - [Spotify-X](https://github.com/amd64fox/SpotX "Spotify-X")
 - [Stremio](https://www.stremio.com/ "Stremio")
 - [Bluetooth Audio Receiver](https://apps.microsoft.com/store/detail/bluetooth-audio-receiver/9N9WCLWDQS5J?hl=en-us&gl=us)
 - [mpv media player](https://mpv.io/) and [mpv menu plugin](https://github.com/tsl0922/mpv-menu-plugin/)
+- [nomacs Image Viewer](https://github.com/nomacs/nomacs)
 
 ##### Development
 - [Visual Studio Code](https://code.visualstudio.com/)
@@ -323,14 +339,14 @@ These apps are optional, or some of them may be included in the operating system
 - [Excalidraw](https://excalidraw.com/)
 
 ##### Communication
-- [Discord](https://discord.com/)
+- [Discord](https://discord.com/) and [Vencord](https://vencord.dev/)
 - [Teams](https://www.microsoft.com/en-ww/microsoft-teams/download-app)
 
 ##### Games
 - [Steam](https://store.steampowered.com/about/)
 - [Heroic Launcher](https://heroicgameslauncher.com/)
 - [Flashpoint](https://flashpointarchive.org/)
-- [steamrip](https://steamrip.com/)
+- [!steamrip](https://steamrip.com/)
 
 ##### Browser extensions
 
@@ -362,7 +378,6 @@ These apps are optional, or some of them may be included in the operating system
 - [YouTooltip](https://addons.mozilla.org/en-US/firefox/addon/youtooltip/)
 - [Watchmarker for YouTube](https://addons.mozilla.org/en-US/firefox/addon/watchmarker-for-youtube/)
 - [Better YouTube Shorts](https://addons.mozilla.org/en-US/firefox/addon/better-youtube-shorts/)
-- [Youtube Digest Summary](https://addons.mozilla.org/en-US/firefox/addon/youtube-chatgpt-summarization/)
 - [YouTube NonStop](https://addons.mozilla.org/en-US/firefox/addon/youtube-nonstop/)
 - [User-Agent Switcher](https://addons.mozilla.org/en-US/firefox/addon/uaswitcher/) or [User-Agent Switcher and Manager](https://addons.mozilla.org/en-US/firefox/addon/user-agent-string-switcher/)
 
