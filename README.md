@@ -308,14 +308,21 @@ Furthermore, the desktop interface may be personalized. For instance, consider a
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/windows_rice.png" width="70%" height="70%">
 </p>
 
-
 The first part includes taskbar configuration as previously discussed. [StartAllBack](https://www.startallback.com) should be installed and configured as desired. In this case, a <b>Proper 11</b> theme, with <b>Default</b> visual style, at <b>M</b> icon size and <b>XS</b> icon margins should do it. On top of that, <b>centered task</b> icons, together and <b>dynamic transparency</b> may be utilized.
 
 Next, the further step will consist in downloading of [RainMeter](https://www.rainmeter.net) <i>customization tool</i>. It allows enabling different design modules, called 'skins' on the desktop workspace. Templates may be [found here](https://www.rainmeter.net/discover/).
 
-The lake landscape wallpaper can be [downloaded here](https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/rice/your_name_landscape_wallpaper.png). Next on the list, the  date and time skin used is [River](https://www.deviantart.com/catart-1304/art/River-0-1-Cat-Art-ft-Luna-Hibiki-917665182), with a manually placement near top-left area. Don't forget to install the font from skin's @Resource directory (seek the manager). The included resource monitor is placed at bottom-right. The shorcuts such as 'This PC', 'Recycle Bin' and such more are avoided in their classical way and used in a fancy [Corner dock](https://www.deviantart.com/sinndbad/art/Corner-Dock-839311234) instead. Now, this one is (even more) customizable through an configuration file and icon files too. The bottom dock is disabled and the right one is kept (to activate press the ribbon's empty area). The [icons](https://github.com/ArmynC/ArminC-Windows-Debloat/tree/main/rice/windows7_aero_shell) and [shortcuts](https://github.com/ArmynC/ArminC-Windows-Debloat/tree/main/rice/win_shortcuts) are custom (must be placed in correct directory). Dock's preset configuration may be directly replaced with the [custom one](https://github.com/ArmynC/ArminC-Windows-Debloat/tree/main/rice/corner_dock).
+The lake landscape wallpaper can be [downloaded here](https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/rice/your_name_landscape_wallpaper.png). Now, the date and time skin used is [River](https://www.deviantart.com/catart-1304/art/River-0-1-Cat-Art-ft-Luna-Hibiki-917665182). It has a manually placement near top-left area. Don't forget to install the font from skin's @Resource directory (see the folder path from manager). The included resource monitor is placed at bottom-right. The shorcuts such as 'This PC', 'Recycle Bin' aren't used in their classical way but, instead, are used in a fancy [Corner dock](https://www.deviantart.com/sinndbad/art/Corner-Dock-839311234). Now, this one is (even more) customizable through an configuration file. The bottom dock is disabled and the right one is kept (to activate press the ribbon's empty area). The [icons](https://github.com/ArmynC/ArminC-Windows-Debloat/tree/main/rice/windows7_aero_shell) and [shortcuts](https://github.com/ArmynC/ArminC-Windows-Debloat/tree/main/rice/win_shortcuts) are custom (must be placed in correct directory). Dock's preset configuration may be directly replaced with the [custom one](https://github.com/ArmynC/ArminC-Windows-Debloat/tree/main/rice/corner_dock). Optionally, the River skin has as default drive, the Disk D: instead of C:, which is the most common one. Get the modified [config here](https://github.com/ArmynC/ArminC-Windows-Debloat/tree/main/rice/river).
 
-At the end of customization process, do open the RainMeter <i>manager</i> and for each skin <i>.ini</i> file, disable the <b>draggable</b> attribute to avoid messing them up.
+At the end of customization process, do open the RainMeter <i>manager</i> and for each skin <i>.ini</i> file, disable the <b>draggable</b> attribute to avoid messing them up. Even more, to avoid having the desktop files, if renamed or modified, automatically placed in the dock's corner space by Windows, go to Settings > Personalization > Start and deactivate 'Show recently opened items in Start, Jump Lists, and File Explorer' option.
+
+The start button, called 'Orb' may be modified using a specialized tool. StartAllBack has the function too. Currently used Orb is called [Sphere](https://www.deviantart.com/n-e-r-e/art/Sphere-start-orb-v2-163442536).
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/start_orb.png" width="70%" height="70%">
+</p>
+
+Some other models can be found [on generic deviations](https://www.deviantart.com/search/deviations?q=start+orb) or [in gallery](https://www.deviantart.com/customizewindows/gallery/26574485/start-orbs). Please be aware that the required orbs aren't some generic pngs, but rather a three layer state image. 
 
 #### Other apps
 
@@ -338,10 +345,16 @@ These apps are optional, or some of them may be included in the operating system
 - [WingetUI](https://github.com/martinet101/WingetUI)
 - [Dimmer](https://www.nelsonpires.com/software/dimmer)
 - [!cracksurl](https://cracksurl.com/)
+- [WizTree](https://diskanalyzer.com/) or [TreeSize](https://www.jam-software.com/treesize_free)
+- [WizFile]( https://antibody-software.com/wizfile/) or [UltraSearch](https://www.jam-software.com/ultrasearch)
+- [Upscaly](https://github.com/upscayl/upscayl)
+- [Wondershare PDFelement](https://pdf.wondershare.com/)
+- [VMWare Workstation](https://support.broadcom.com/group/ecx/productdownloads?subfamily=VMware+Workstation+Pro)
+- [Internet Download Manager](https://www.internetdownloadmanager.com/)
 
 ##### Media
-- [Spotify-X](https://github.com/amd64fox/SpotX "Spotify-X")
-- [Stremio](https://www.stremio.com/ "Stremio")
+- [Spotify-X](https://github.com/amd64fox/SpotX)
+- [Stremio](https://www.stremio.com/)
 - [Bluetooth Audio Receiver](https://apps.microsoft.com/store/detail/bluetooth-audio-receiver/9N9WCLWDQS5J?hl=en-us&gl=us)
 - [mpv media player](https://mpv.io/) and [mpv menu plugin](https://github.com/tsl0922/mpv-menu-plugin/)
 - [nomacs Image Viewer](https://github.com/nomacs/nomacs)
@@ -387,16 +400,16 @@ These apps are optional, or some of them may be included in the operating system
 - [Stream Bypass](https://addons.mozilla.org/en-US/firefox/addon/stream-bypass/)
 - [WebDeveloper](https://addons.mozilla.org/en-US/firefox/addon/web-developer/)
 - [Bonjourr Startpage](https://addons.mozilla.org/en-US/firefox/addon/bonjourr-startpage/)
+- [User-Agent Switcher](https://addons.mozilla.org/en-US/firefox/addon/uaswitcher/) or [User-Agent Switcher and Manager](https://addons.mozilla.org/en-US/firefox/addon/user-agent-string-switcher/)
 
 ###### Youtube:
-- [Enhancer for YouTube](https://addons.mozilla.org/en-US/firefox/addon/enhancer-for-youtube/) or [YouTube Redux](https://addons.mozilla.org/en-US/firefox/addon/youtube-redux/)
+- [Enhancer for YouTube](https://addons.mozilla.org/en-US/firefox/addon/enhancer-for-youtube/) or [YouTube Enhancer](https://github.com/YouTube-Enhancer/extension) or [YouTube Redux](https://addons.mozilla.org/en-US/firefox/addon/youtube-redux/)
 - [Return YouTube Dislikes](https://addons.mozilla.org/en-US/firefox/addon/return-youtube-dislikes/)
 - [Thumbnail Rating Bar for YouTube](https://addons.mozilla.org/en-US/firefox/addon/youtube-thumbnail-rating-bar/)
 - [YouTooltip](https://addons.mozilla.org/en-US/firefox/addon/youtooltip/)
 - [Watchmarker for YouTube](https://addons.mozilla.org/en-US/firefox/addon/watchmarker-for-youtube/)
 - [Better YouTube Shorts](https://addons.mozilla.org/en-US/firefox/addon/better-youtube-shorts/)
 - [YouTube NonStop](https://addons.mozilla.org/en-US/firefox/addon/youtube-nonstop/)
-- [User-Agent Switcher](https://addons.mozilla.org/en-US/firefox/addon/uaswitcher/) or [User-Agent Switcher and Manager](https://addons.mozilla.org/en-US/firefox/addon/user-agent-string-switcher/)
 
 ## Support
 
