@@ -319,7 +319,7 @@ At the end of customization process, do open the RainMeter <i>manager</i> and fo
 The start button, called 'Orb' may be modified using a specialized tool. StartAllBack has the function too. Currently used Orb is called [Sphere](https://www.deviantart.com/n-e-r-e/art/Sphere-start-orb-v2-163442536).
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/start_orb.png" width="70%" height="70%">
+<img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/start_orb.png" width="30%" height="30%">
 </p>
 
 Some other models can be found [on generic deviations](https://www.deviantart.com/search/deviations?q=start+orb) or [in gallery](https://www.deviantart.com/customizewindows/gallery/26574485/start-orbs). Please be aware that the required orbs aren't some generic pngs, but rather a three layer state image. 
