@@ -39,10 +39,15 @@ Linux got as on par alternative to <i>Windows</i> in terms of customization, and
 <sub>KDE Plasma Desktop</sub>
 </p>
 
-Some Linux variants, namely distributions, are as follows: <a href="https://linuxmint.com/">Linux Mint</a>, by default isn't that complex or shiny but it is very stable, GUI oriented, and user friendly, plug and play type; <a href="https://pop.system76.com/">Pop!_OS</a>, it is distinct, elegant (Cosmic UI) and it is an easy experience, yet it is cautious about adopting zero-day updates; <a href="https://get.opensuse.org/">openSUSE Tumbleweed</a>, professionally backed, powerful, rock-stable and very intuitive on its own, up-to-date yet auto QA tested packages, has a lot of GUI tools but requires a little experience in tinkering it at first (e.g. enabling non open-source repositories if desired); <a href="https://fedoraproject.org/spins/kde/">Fedora</a>, professionally backed with a modern experience, early last-gen adopter so on edge cases it may be buggy; <a href="https://endeavouros.com/">EndeavourOS</a>, community based, made on top of a complex core (Arch), has some elementary UI tools such as installer and helper - mostly terminal centric, advanced users oriented; <a href="https://cachyos.org/">CachyOS</a>, small community, based on Arch too, snappy, implements custom optimizations and schedulers, due to its nature may be unstable at times.
+Some Linux variants, namely distributions, are as follows: <a href="https://linuxmint.com/">Linux Mint (Edge)</a>, by default isn't that complex or shiny but it is very stable, GUI oriented, and user friendly, plug and play type; <a href="https://pop.system76.com/">Pop!_OS</a>, it is distinct, elegant (Cosmic UI) and it is an easy experience, yet it is cautious about adopting zero-day updates; <a href="https://get.opensuse.org/">openSUSE Tumbleweed</a>, professionally backed, powerful, rock-stable and very intuitive on its own, up-to-date yet auto QA tested packages, has a lot of complex GUI tools but requires a little experience in tinkering it at first (e.g. enabling non open-source repositories if desired); <a href="https://fedoraproject.org/spins/kde/">Fedora</a>, professionally backed with a modern experience, early last-gen adopter so on edge cases it may be buggy; <a href="https://endeavouros.com/">EndeavourOS</a>, community based, made on top of a complex core (Arch), has some elementary UI tools such as installer and helper - mostly terminal centric, advanced users oriented; <a href="https://cachyos.org/">CachyOS</a>, small community, based on Arch too, snappy, implements custom optimizations and schedulers, due to its nature may be unstable at times.
 
-> [!NOTE]
-> Using Linux might be fair simple but you should have at least a minimal experience in following tutorials as at times, the Terminal may help you because not everything is going to work as expected. It is likely to be used at least some times in the entire OS lifetime.
+> [!IMPORTANT]
+> Using Linux might be fair simple but you should have at least a minimal experience in following tutorials, as at times, the Terminal may help you because not everything is going to work as expected. It is likely to be used at least some times in the entire OS lifetime.
+
+> [!TIP]
+> Here, some simple and useful facts can be found:
+> https://www.reddit.com/r/linux_gaming/wiki/faq/
+> https://linux-gaming.kwindu.eu/
 
 ---
 
@@ -308,7 +313,7 @@ Furthermore, the desktop interface may be personalized. For instance, consider a
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/windows_rice.png" width="70%" height="70%">
 </p>
 
-The first part includes taskbar configuration as previously discussed. [StartAllBack](https://www.startallback.com) should be installed and configured as desired. In this case, a <b>Proper 11</b> theme, with <b>Default</b> visual style, at <b>M</b> icon size and <b>XS</b> icon margins should do it. On top of that, <b>centered task</b> icons, together and <b>dynamic transparency</b> may be utilized.
+The first part includes taskbar configuration as previously discussed. [StartAllBack](https://www.startallback.com) should be installed and configured as desired. In this case, a <b>Proper 11</b> theme, with <b>Default</b> visual style, at <b>M</b> icon size and <b>XS</b> icon margins should do it. On top of that, <b>centered task</b> icons, together and <b>dynamic transparency</b> may be utilized. As a substitute, [ExplorerPatcher](https://github.com/valinet/ExplorerPatcher) can be used.
 
 Next, the further step will consist in downloading of [RainMeter](https://www.rainmeter.net) <i>customization tool</i>. It allows enabling different design modules, called 'skins' on the desktop workspace. Templates may be [found here](https://www.rainmeter.net/discover/).
 
@@ -351,6 +356,8 @@ These apps are optional, or some of them may be included in the operating system
 - [Wondershare PDFelement](https://pdf.wondershare.com/)
 - [VMWare Workstation](https://support.broadcom.com/group/ecx/productdownloads?subfamily=VMware+Workstation+Pro)
 - [Internet Download Manager](https://www.internetdownloadmanager.com/)
+- [!megathread_resources](https://old.reddit.com/r/Piracy/wiki/megathread)
+- [!fmhy](https://fmhy.net/)
 
 ##### Media
 - [Spotify-X](https://github.com/amd64fox/SpotX)
@@ -365,7 +372,7 @@ These apps are optional, or some of them may be included in the operating system
 - [GitHub](https://desktop.github.com/)
 - [Office](https://forums.mydigitallife.net/threads/office-r-tool-the-new-era.84450/)
 - [Beyond Compare](https://www.scootersoftware.com/download.php)
-- [Appflowy](https://www.appflowy.io/) or [Craft](https://www.craft.do/)
+- [Appflowy](https://www.appflowy.io/) or [Notes](https://github.com/nuttyartist/notes) or [Craft](https://www.craft.do/)
 - [Excalidraw](https://excalidraw.com/)
 
 ##### Communication
@@ -401,6 +408,8 @@ These apps are optional, or some of them may be included in the operating system
 - [WebDeveloper](https://addons.mozilla.org/en-US/firefox/addon/web-developer/)
 - [Bonjourr Startpage](https://addons.mozilla.org/en-US/firefox/addon/bonjourr-startpage/)
 - [User-Agent Switcher](https://addons.mozilla.org/en-US/firefox/addon/uaswitcher/) or [User-Agent Switcher and Manager](https://addons.mozilla.org/en-US/firefox/addon/user-agent-string-switcher/)
+- [Video Speed Controller](https://addons.mozilla.org/en-US/firefox/addon/videospeed/)
+- [Alternate Player for Twitch.tv](https://addons.mozilla.org/en-US/firefox/addon/twitch_5/)
 
 ###### Youtube:
 - [Enhancer for YouTube](https://addons.mozilla.org/en-US/firefox/addon/enhancer-for-youtube/) or [YouTube Enhancer](https://github.com/YouTube-Enhancer/extension) or [YouTube Redux](https://addons.mozilla.org/en-US/firefox/addon/youtube-redux/)
