@@ -46,8 +46,8 @@ Some Linux variants, namely distributions, are as follows: <a href="https://linu
 
 > [!TIP]
 > Here, some simple and useful facts can be found:
-> https://www.reddit.com/r/linux_gaming/wiki/faq/
-> https://linux-gaming.kwindu.eu/
+https://www.reddit.com/r/linux_gaming/wiki/faq/
+https://linux-gaming.kwindu.eu/
 
 ---
 
@@ -84,7 +84,7 @@ First and foremost, you must obtain the **.iso** image file of Microsoft Windows
 <li><a href="https://msdl.gravesoft.dev/">Microsoft Software Download Listing </a> iso media grabber for bootable USB.</li>
     
 <p align="center">
-<img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/microsoft_software_grabber.png" width="50%" height="50%">
+<img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/microsoft_software_grabber.png" width="30%" height="30%">
 <br>
 <sub>Microsoft Software grabber listing</sub>
 </p>
@@ -106,7 +106,7 @@ First and foremost, you must obtain the **.iso** image file of Microsoft Windows
 </p>
     
 <br>
-<p>By using these images, one can apply debloat and enhance functionality which goes as <a href="https://github.com/ChrisTitusTech/winutil">MicroWin</a> (<b>Recommended</b>). Or otherwise, for a simpler complexity, <a href="https://docs.atlasos.net/getting-started/installation/">AtlasOS</a> should represent a good choice.</p>
+- <p>By using these images, one can apply debloat and enhance functionality which goes as <a href="https://github.com/ChrisTitusTech/winutil">MicroWin</a> (<b>Recommended</b>). Or otherwise, for a simpler complexity, <a href="https://docs.atlasos.net/getting-started/installation/">AtlasOS</a> should represent a good choice as a pre-patched solution.</p>
     
 <p align="center">
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/winutil_microwin.png" width="50%" height="50%">
