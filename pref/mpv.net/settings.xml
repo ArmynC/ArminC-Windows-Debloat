@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <InputDefaultBindingsFixApplied>true</InputDefaultBindingsFixApplied>
+    <ShowMenuFixApplied>true</ShowMenuFixApplied>
+    <MenuUpdateVersion>0</MenuUpdateVersion>
+    <Volume>92</Volume>
+    <RecentFiles>
+        <string>C:\Users\User\Directory\Dev\15 Days of SQL The Complete SQL Masterclass 2024 2024-9\02 - Day 2 - Basics Filtering\025 Solution LIKE.mp4</string>
+        <string>C:\Users\User\Directory\Dev\15 Days of SQL The Complete SQL Masterclass 2024 2024-9\02 - Day 2 - Basics Filtering\026 Comments &amp; Aliases.mp4</string>
+        <string>C:\Users\User\Directory\Dev\15 Days of SQL The Complete SQL Masterclass 2024 2024-9\02 - Day 2 - Basics Filtering\024 Challenge LIKE.mp4</string>
+        <string>C:\Users\User\Directory\Dev\15 Days of SQL The Complete SQL Masterclass 2024 2024-9\02 - Day 2 - Basics Filtering\022 LIKE.mp4</string>
+        <string>C:\Users\User\Directory\Dev\15 Days of SQL The Complete SQL Masterclass 2024 2024-9\02 - Day 2 - Basics Filtering\021 Solution IN.mp4</string>
+        <string>C:\Users\User\Directory\Dev\15 Days of SQL The Complete SQL Masterclass 2024 2024-9\02 - Day 2 - Basics Filtering\020 Challenge IN.mp4</string>
+        <string>C:\Users\User\Directory\Dev\15 Days of SQL The Complete SQL Masterclass 2024 2024-9\02 - Day 2 - Basics Filtering\018 IN.mp4</string>
+        <string>C:\Users\User\Directory\Dev\15 Days of SQL The Complete SQL Masterclass 2024 2024-9\02 - Day 2 - Basics Filtering\017 Solution BETWEEN.mp4</string>
+        <string>C:\Users\User\Directory\Dev\15 Days of SQL The Complete SQL Masterclass 2024 2024-9\02 - Day 2 - Basics Filtering\016 Challenge BETWEEN.mp4</string>
+        <string>C:\Users\User\Directory\Dev\15 Days of SQL The Complete SQL Masterclass 2024 2024-9\02 - Day 2 - Basics Filtering\014 BETWEEN.mp4</string>
+        <string>C:\Users\User\Directory\Dev\15 Days of SQL The Complete SQL Masterclass 2024 2024-9\02 - Day 2 - Basics Filtering\012 Solution WHERE with ANDOR.mp4</string>
+        <string>C:\Users\User\Directory\Dev\15 Days of SQL The Complete SQL Masterclass 2024 2024-9\02 - Day 2 - Basics Filtering\011 Challenge WHERE with ANDOR.mp4</string>
+        <string>C:\Users\User\Directory\Dev\15 Days of SQL The Complete SQL Masterclass 2024 2024-9\02 - Day 2 - Basics Filtering\009 WHERE with ANDOR.mp4</string>
+        <string>C:\Users\User\Directory\Dev\15 Days of SQL The Complete SQL Masterclass 2024 2024-9\02 - Day 2 - Basics Filtering\008 Solution WHERE operators.mp4</string>
+        <string>C:\Users\User\Directory\Dev\15 Days of SQL The Complete SQL Masterclass 2024 2024-9\02 - Day 2 - Basics Filtering\007 Challenge WHERE operators.mp4</string>
+    </RecentFiles>
+    <WindowLocation>
+        <X>0</X>
+        <Y>0</Y>
+    </WindowLocation>
+    <WindowPosition>
+        <X>959</X>
+        <Y>519</Y>
+    </WindowPosition>
+    <WindowSize>
+        <Width>1117</Width>
+        <Height>628</Height>
+    </WindowSize>
+    <AudioDevice />
+    <ConfigEditorSearch>General:</ConfigEditorSearch>
+    <Mute>no</Mute>
+    <StartupFolder />
+</AppSettings>

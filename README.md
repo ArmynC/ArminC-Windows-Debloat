@@ -81,20 +81,20 @@ First and foremost, you must obtain the **.iso** image file of Microsoft Windows
 <li><b>Official</b> images:</li>
 
 <ol type="i">
+<li><a href="https://msdl.gravesoft.dev/">Microsoft Software Download Listing </a> iso media grabber for bootable USB.</li>
+    
+<p align="center">
+<img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/microsoft_software_grabber.png" width="50%" height="50%">
+<br>
+<sub>Microsoft Software grabber listing</sub>
+</p>
+    
 <li><a href="https://www.microsoft.com/en-us/software-download/windows11">Official Windows Installation</a> tool/iso for bootable USB or DVD.</li>
-
+    
 <p align="center">
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/windows_official_iso.png" width="50%" height="50%">
 <br>
 <sub>Windows generated ISO</sub>
-</p>
-    
-<p>By using this, one can apply <a href="https://github.com/ChrisTitusTech/winutil">Windows Utility</a> debloat and enhance functionality which goes as MicroWin (<b>Recommended</b>).</p>
-    
-<p align="center">
-<img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/winutil_microwin.png" width="50%" height="50%">
-<br>
-<sub>Winutil MicroWin</sub>
 </p>
     
 <li><a href="https://github.com/pbatard/Fido">Fido PowerShell</a> download script with automated access to the official Microsoft Windows retail server. There are <b>no modifications</b> at all.</li>
@@ -103,6 +103,15 @@ First and foremost, you must obtain the **.iso** image file of Microsoft Windows
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/fido.png" width="30%" height="30%">
 <br>
 <sub>Fido</sub>
+</p>
+    
+<br>
+<p>By using these images, one can apply debloat and enhance functionality which goes as <a href="https://github.com/ChrisTitusTech/winutil">MicroWin</a> (<b>Recommended</b>). Or otherwise, for a simpler complexity, <a href="https://docs.atlasos.net/getting-started/installation/">AtlasOS</a> should represent a good choice.</p>
+    
+<p align="center">
+<img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/winutil_microwin.png" width="50%" height="50%">
+<br>
+<sub>Winutil MicroWin</sub>
 </p>
 
 </ol>
@@ -163,10 +172,10 @@ Near the end of the installation, if you haven't downloaded a pre-built image wi
 If you are done with it, now you should prepare the operating system.
 
 ##### The browser
-The first thing on the list is to try and change the browser. **[Firefox](https://www.mozilla.org/en-US/firefox/developer/)** is the most optimal variant, even for *extension capabilities*. About that, see my [uBlock Settings](https://github.com/ArmynC/ArminC-uBlock-Settings). Check other extensions too.
+The first thing on the list is to try and change the browser. **[Zen](https://github.com/zen-browser/desktop)** or unforked **[Firefox](https://www.mozilla.org/en-US/firefox/developer/)** are the most optimal variants, even speaking of *extension capabilities*. About that, see my [uBlock Settings](https://github.com/ArmynC/ArminC-uBlock-Settings). Check other extensions too.
 
 ##### Other apps
-Next, for all the other steps, you'll need a file archiver. [7-Zip](https://www.7-zip.org/)/[NanaZip](https://github.com/M2Team/NanaZip) or even [PeaZip](https://peazip.github.io/) are along the best ones; these are even *open-source*.
+Next, for all the other steps, you'll need a file archiver. [NanaZip](https://github.com/M2Team/NanaZip), unforked [7-Zip](https://www.7-zip.org/)/ or even [PeaZip](https://peazip.github.io/) should do it. These are *open-source*.
 
 For peace of mind, it is a good habit to **install an antivirus**. Depending on your Windows image, the default one, **Defender** should be good enough. In other considerations, it may be removed, disabled, or not working at all. As options there are [Kaspersky Security Cloud (Free)](https://www.kaspersky.com/free-antivirus") or even [BitDefender (Free)](https://www.bitdefender.com/solutions/free.html). Kaspersky has almost nearly protection module of its premium counterpart, and it is intelligent enough to **disable itself when resources are required**, such as during gaming.
 
@@ -293,7 +302,7 @@ Above presented [Winutil](https://github.com/ChrisTitusTech/winutil) has a tweak
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/winutil_tweaks.png" width="50%" height="50%">
 </p>
 
-If there was no tool used, the first part of **debloating** is going to be through [O&O Shutup](https://www.oo-software.com/en/shutup10). It can tweak most of the usual settings. [Here is my exported example configuration](https://github.com/ArmynC/ArminC-Windows-Debloat/blob/main/cfg/ooshutup10.cfg)... Disabling every feature can lead to compatibility errors.
+If there was no tool used, the first part of **debloating** is going to be through [O&O Shutup](https://www.oo-software.com/en/shutup10). It can tweak most of the usual settings. [Here is my exported example configuration](https://github.com/ArmynC/ArminC-Windows-Debloat/blob/main/pref/ooshutup10/ooshutup10.cfg)... Disabling every feature can lead to compatibility errors.
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/oo_shutup.png" width="50%" height="50%">
@@ -363,7 +372,7 @@ These apps are optional, or some of them may be included in the operating system
 - [Spotify-X](https://github.com/amd64fox/SpotX)
 - [Stremio](https://www.stremio.com/)
 - [Bluetooth Audio Receiver](https://apps.microsoft.com/store/detail/bluetooth-audio-receiver/9N9WCLWDQS5J?hl=en-us&gl=us)
-- [mpv media player](https://mpv.io/) and [mpv menu plugin](https://github.com/tsl0922/mpv-menu-plugin/)
+- [mpvnet media player ](https://github.com/mpvnet-player/mpv.net) - ([cfg](https://github.com/ArmynC/ArminC-Windows-Debloat/blob/main/pref/mpv.net)) or [mpv media player](https://mpv.io/) and [mpv menu plugin](https://github.com/tsl0922/mpv-menu-plugin/)
 - [nomacs Image Viewer](https://github.com/nomacs/nomacs)
 
 ##### Development
@@ -410,6 +419,9 @@ These apps are optional, or some of them may be included in the operating system
 - [User-Agent Switcher](https://addons.mozilla.org/en-US/firefox/addon/uaswitcher/) or [User-Agent Switcher and Manager](https://addons.mozilla.org/en-US/firefox/addon/user-agent-string-switcher/)
 - [Video Speed Controller](https://addons.mozilla.org/en-US/firefox/addon/videospeed/)
 - [Alternate Player for Twitch.tv](https://addons.mozilla.org/en-US/firefox/addon/twitch_5/)
+- [History Cleaner](https://addons.mozilla.org/en-US/firefox/addon/history-cleaner/) and [Clear Browsing Data](https://addons.mozilla.org/en-US/firefox/addon/clear-browsing-data/)
+- [View Page Archive](https://addons.mozilla.org/en-US/firefox/addon/view-page-archive/)
+- [Search by Image](https://addons.mozilla.org/en-US/firefox/addon/search_by_image/)
 
 ###### Youtube:
 - [Enhancer for YouTube](https://addons.mozilla.org/en-US/firefox/addon/enhancer-for-youtube/) or [YouTube Enhancer](https://github.com/YouTube-Enhancer/extension) or [YouTube Redux](https://addons.mozilla.org/en-US/firefox/addon/youtube-redux/)
