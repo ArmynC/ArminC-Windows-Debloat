@@ -46,6 +46,7 @@ Some Linux variants, namely distributions, are as follows: <a href="https://linu
 
 > [!TIP]
 > Here, some simple and useful facts can be found:
+<br>
 https://www.reddit.com/r/linux_gaming/wiki/faq/
 <br>
 https://linux-gaming.kwindu.eu/
